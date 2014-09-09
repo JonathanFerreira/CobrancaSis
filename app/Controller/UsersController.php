@@ -3,7 +3,7 @@ class UsersController extends AppController {
     public $helpers = array ('Html','Form');
     public $name = 'User';
     public $components = array('Session');
-    public $uses = array('User');
+    public $uses = array('User','Debt');
     
      
 
@@ -41,7 +41,7 @@ class UsersController extends AppController {
       echo "usuario";
     }
 
-     public function beforeFilter() {
+    public function beforeFilter() {
         parent::beforeFilter();
     }
 
@@ -56,7 +56,7 @@ class UsersController extends AppController {
                 
             }
             else {
-               $this->redirect(array('controller' => 'users', 'action' => 'teste2'));
+               $this->redirect(array('controller' => 'debts', 'action' => 'index')); 
 
             }
         
@@ -72,40 +72,41 @@ class UsersController extends AppController {
 
     public function logout() {
         $this->redirect($this->Auth->logout());
-    }
-
-   
+    }  
+    
 
     public function add_manager() {
         if ($this->request->is('post')) {            
-            $this->request->data ['User']['group'] = 1;
-            print_r( $this->request->data);
+            $this->request->data ['User']['group'] = 1;           
 
             if ($this->User->save($this->request->data)) {
                 $this->Session->setFlash('Cadastro efetuado com sucesso!');
-                $this->redirect(array('action' => 'index'));
+                //$this->redirect(array('action' => 'index'));
             }
       
 
         }
-    }
+    }     
+   
 
     public function add_employee() {
         if ($this->request->is('post')) {            
-            $this->request->data ['User']['group'] = 0;
-            
+            $this->request->data ['User']['group'] = 0;           
+
             if ($this->User->save($this->request->data)) {
                 $this->Session->setFlash('Cadastro efetuado com sucesso!');
-                $this->redirect(array('action' => 'index'));
+                //$this->redirect(array('action' => 'index'));
             }
       
 
         }
     }
 
+
+
       public function view($id) {
         $this->User->id = $id;
-        $this->set('usuario', $this->Post->read());
+        $this->set('cobranca', $this->Debt->read());
    
 
       }
@@ -123,37 +124,38 @@ class UsersController extends AppController {
      }
 
      function delete($id) {
-      if (!$this->request->is('post')) {
-        throw new MethodNotAllowedException();
-      }
-      if ($this->User->delete($id)) {
-         $this->Session->setFlash('Usuario Deletado!');
-         $this->redirect(array('action' => 'index'));
-      }
-}
+        if (!$this->request->is('post')) {
+          throw new MethodNotAllowedException();
+        }
+        if ($this->Debt->delete($id)) {
+           $this->Session->setFlash('Cobrança Deletada!');
+           //$this->redirect(array('action' => 'index'));
+        }
+     }
 
+     function list_employee(){
+      $usuarios = $this->User-> find("all", array(
+            'conditions' => array(
+            'User.group' => 0
+          ))); 
 
-     public function list_manager() {        
+      $this->set('usuarios',$usuarios);
+     }
 
-         $admins = $this->User-> find("all", array(
+      function list_manager(){
+          $admins = $this->User-> find("all", array(
             'conditions' => array(
             'User.group' => 1
           )));  
-   
-        $this->set('admins',$admins);
+      $this->set('admins',$admins);
 
-    }
+     
+     }
 
-    public function list_employee() {          
 
-         $usuarios = $this->User-> find("all", array(
-            'conditions' => array(
-            'User.group' => 0
-          )));  
-   
-        $this->set('usuarios',$usuarios);
 
-    }
+ 
+  
 
  
 }

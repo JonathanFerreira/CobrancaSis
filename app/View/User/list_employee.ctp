@@ -7,10 +7,8 @@
         <th>Opcões</th>
     </tr>
 
-    <!-- Aqui é onde nós percorremos nossa matriz $posts, imprimindo
-         as informações dos posts -->
 
-    <?php foreach ($usuarios as $usuario): ?>
+    <?php foreach ($usuarios as $key => $usuario): ?>
     <tr>
         <td><?php echo $usuario['User']['id']; ?></td>
         <td>
@@ -24,3 +22,6 @@
     <?php endforeach; ?>
 
 </table>
+
+
+
