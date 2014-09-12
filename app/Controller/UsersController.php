@@ -106,7 +106,7 @@ class UsersController extends AppController {
 
       public function view($id) {
         $this->User->id = $id;
-        $this->set('cobranca', $this->Debt->read());
+        $this->set('usuario', $this->User->read());
    
 
       }
@@ -127,7 +127,7 @@ class UsersController extends AppController {
         if (!$this->request->is('post')) {
           throw new MethodNotAllowedException();
         }
-        if ($this->Debt->delete($id)) {
+        if ($this->User->delete($id)) {
            $this->Session->setFlash('Cobrança Deletada!');
            //$this->redirect(array('action' => 'index'));
         }

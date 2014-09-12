@@ -139,6 +139,7 @@
                               
                             </ul>
                         </li>
+
                         
                         <?php else: ?>
                             <li>
@@ -160,6 +161,23 @@
                            </li>
 
                          <?php endif; ?>
+                         <li>
+                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Clientes<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level">
+                                <li>
+                                     <?php
+                                        echo $this->Html->link(__('Cadastrar'), array(
+                                       'controller' => 'clients', 'action' => 'add'));
+                                       ?>
+                                </li>
+                                <li>
+                                     <?php
+                                        echo $this->Html->link(__('Listar'), array(
+                                       'controller' => 'clients', 'action' => 'list_clients'));
+                                      ?>
+                                </li>
+                            </ul>
+                        </li>       
                         
                         <li>
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i>Configurações<span class="fa arrow"></span></a>

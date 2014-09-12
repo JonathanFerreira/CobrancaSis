@@ -14073,3 +14073,56 @@ Request URL: /CobrancaSis/font-awesome-4.1.0/css/font-awesome.min.css
 Stack Trace:
 #0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-11 17:42:45 Error: [MissingControllerException] Controller class Font-awesome-4.1.0Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Font-awesome-4.1.0Controller',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-11 22:47:43 Error: [MissingControllerException] Controller class Font-awesome-4.1.0Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Font-awesome-4.1.0Controller',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/font-awesome-4.1.0/css/font-awesome.min.css
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-11 23:03:13 Error: [MissingActionException] Action UserController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserController',
+  'action' => 'add',
+)
+Request URL: /CobrancaSis/users/add
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-11 23:04:09 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/add__e_m_p_l_o_y_e_e.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/add__e_m_p_l_o_y_e_e.ctp',
+)
+Request URL: /CobrancaSis/users/add_EMPLOYEE
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-11 23:06:51 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Debt/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Debt/add.ctp',
+)
+Request URL: /CobrancaSis/debts/add
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
