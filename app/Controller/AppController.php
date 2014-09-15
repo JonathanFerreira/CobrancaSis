@@ -49,13 +49,13 @@ class AppController extends Controller {
     var $permissoesFuncionario = array(
         'users' => array('login' => true,'logout' => true, 'change_pass' => true, 'teste2' => true),
         'debts' => array('index' => true,'add' => true),
-        'clients' => array('index' => true,'add' => true)
+        'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true)
         );
 
     var $permissoesAdmin = array(
         'users' => array('login' => true,'logout' => true, 'index' => true,  'teste2' => true, 'add_manager' => true, 'add_employee' => true, 'list_manager' => true, 'list_employee' => true),
         'debts' => array('index' => true,'add' => true),
-        'clients' => array('index' => true,'add' => true)
+        'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true)
         );
 
     

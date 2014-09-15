@@ -18,13 +18,28 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
   <?php
+
+    echo $this->Html->script('jquery-1.11.0.js');  //datepicker
+    echo $this->Html->script('jquery-ui-1.10.3.custom.min.js'); //datepicker
+    echo $this->Html->script('bootstrap.min.js');
+    echo $this->Html->script('plugins/metisMenu/metisMenu.min.js');
+    echo $this->Html->script('sb-admin-2.js'); 
+    echo $this->Html->css('jquery-ui.css');//datepicker 
+
     echo $this->Html->css('font-awesome/css/font-awesome.min.css');
     echo $this->Html->css('plugins/morris.css');
     echo $this->Html->css('sb-admin-2.css');
     echo $this->Html->css('plugins/timeline.css');
-    echo $this->Html->css('plugins/metisMenu/metisMenu.min.css');
-   echo $this->Html->css('bootstrap.min.css');
+    echo $this->Html->css('plugins/metisMenu/metisMenu.min.css');  
+    echo $this->Html->css('bootstrap.min.css');
+    
+         
+
+     
+    
+    
   ?>
 
 
@@ -205,9 +220,6 @@
 
 </html>
 <?php
-
-echo $this->Html->script('jquery-1.11.0.js');
-echo $this->Html->script('bootstrap.min.js');
-echo $this->Html->script('plugins/metisMenu/metisMenu.min.js');
-echo $this->Html->script('sb-admin-2.js');
+          
+     
 ?>

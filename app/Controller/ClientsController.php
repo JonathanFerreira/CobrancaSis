@@ -58,6 +58,11 @@ class ClientsController extends AppController {
         }
      }
 
+     function list_clients(){
+      $clientes = $this->Client->find('all');
+      $this->set('clientes',$clientes);
+     }
+
      
 
  

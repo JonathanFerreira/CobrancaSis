@@ -3,7 +3,7 @@ class DebtsController extends AppController {
     public $helpers = array ('Html','Form');
     public $name = 'Debt';
     public $components = array('Session');
-    public $uses = array('Debt');
+    public $uses = array('Debt','User');
    
     
     function index(){
@@ -18,7 +18,8 @@ class DebtsController extends AppController {
 
     public function add(){
       if($this->request->is('post')){
-         $this->request->data ['Debt']['name'] = $userName;
+        debug($this->request->data);
+         
          if ($this->Debt->save($this->request->data)) {
                 $this->Session->setFlash('Cobrança cadastrada com sucesso!');
                 //$this->redirect(array('action' => 'index'));

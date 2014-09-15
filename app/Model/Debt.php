@@ -1,22 +1,22 @@
 <?php
 
-App::uses( 'Controller/Component');
+
 
 class Debt extends AppModel {
     public $name = 'Debt';
 
     public $validate = array(
         'dt_compra' => array(
-            'rule' => 'notEmpty',
-            'message' => 'Preencha este campo!'
+            'rule' => array('date', 'dmy'),
+            'message' => 'Selecione uma data valida.'
         ),
         'dt_vencimento' => array(
-            'rule' => 'notEmpty',
-            'message' => 'Preencha este campo!'
+            'rule' => array('date', 'dmy'),
+            'message' => 'Selecione uma data valida.'
         ),
         'dt_cobranca' => array(
-            'rule' => 'notEmpty',
-            'message' => 'Preencha este campo!'
+            'rule' => array('date', 'dmy'),
+            'message' => 'Selecione uma data valida.'
          ),
         'valor' => array(
             'rule' => 'notEmpty',
@@ -31,5 +31,4 @@ class Debt extends AppModel {
     
 
 }
-
 ?>
