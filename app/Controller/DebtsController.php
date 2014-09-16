@@ -9,17 +9,16 @@ class DebtsController extends AppController {
     function index(){
 
        $this->Debt->recursive = 0;
-       $this->set('debts', $this->paginate());
-
-       
+       $this->set('debts', $this->paginate());      
 
     }
 
 
     public function add(){
       if($this->request->is('post')){
-        debug($this->request->data);
-         
+        $this->request->data['Debt']['name'] = $this->Auth->user('name');
+        $this->request->data['Debt']['fechado'] = 0;
+       
          if ($this->Debt->save($this->request->data)) {
                 $this->Session->setFlash('Cobrança cadastrada com sucesso!');
                 //$this->redirect(array('action' => 'index'));
@@ -32,8 +31,7 @@ class DebtsController extends AppController {
 
     public function view($id) {
         $this->Debt->id = $id;
-        $this->set('cobranca', $this->Debt->read());
-   
+        $this->set('cobranca', $this->Debt->read());   
 
     }
 
@@ -58,6 +56,22 @@ class DebtsController extends AppController {
          $this->redirect(array('action' => 'index'));
       }
     }
+
+      function list_open(){
+      $abertas = $this->Debt-> find("all", array(
+            'conditions' => array(
+            'Debt.fechado' => 0
+          ))); 
+        $this->set('abertas',$abertas);
+     }
+
+      function list_close(){
+      $fechadas = $this->Debt-> find("all", array(
+            'conditions' => array(
+            'Debt.fechado' => 1
+          ))); 
+      $this->set('fechadas',$fechadas);
+     }
 
 }
 

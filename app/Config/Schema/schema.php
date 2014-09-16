@@ -25,9 +25,9 @@ class AppSchema extends CakeSchema {
 
 	public $debts = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'dt_compra' => array('type' => 'datetime', 'null' => false, 'default' => null),
-		'dt_vencimento' => array('type' => 'datetime', 'null' => false, 'default' => null),
-		'dt_cobranca' => array('type' => 'datetime', 'null' => false, 'default' => null),
+		'dt_compra' => array('type' => 'date', 'null' => true, 'default' => null),
+		'dt_vencimento' => array('type' => 'date', 'null' => true, 'default' => null),
+		'dt_cobranca' => array('type' => 'date', 'null' => true, 'default' => null),
 		'valor' => array('type' => 'float', 'null' => false, 'default' => null),
 		'tipo_cobranca' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 20, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'fechado' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),

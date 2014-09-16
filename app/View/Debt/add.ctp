@@ -1,15 +1,4 @@
-
-<!--
-   <meta charset="utf-8" />
-    <link rel="stylesheet"  type="text/css" href="jquery-ui-1.9.2/css/ui-lightness/jquery-ui-1.9.2.custom.css" />
-   
-  
-  <script src="jquery-ui-1.9.2/js/jquery-1.8.3.js"></script> 
-   <script src="jquery-ui-1.9.2/js/jquery-1.9.2.custom.js"></script>
-  <script src="jquery-ui-1.9.2/js/jquery-ui-1.9.2.custom.min.js"></script>
-  -->
-
-  <h1>Adicionar Cobranca</h1>
+<h1>Adicionar Cobranca</h1>
 
 
 

@@ -135,15 +135,15 @@
                                         <li>
                                              <?php
                                                 echo $this->Html->link(__('Abertas'), array(
-                                                      'controller' => 'Debts', 'action' =>
-                                                       'list_debts_open'));
+                                                      'controller' => 'debts', 'action' =>
+                                                       'list_open'));
                                                ?>
                                         </li>
                                         <li>
                                              <?php
                                                 echo $this->Html->link(__('Fechadas'), 
-                                                array( 'controller' => 'Debts', 'action' =>
-                                                       'list_debts_close'));
+                                                array( 'controller' => 'debts', 'action' =>
+                                                       'list_close'));
                                                ?>
                                         </li>
                                         
