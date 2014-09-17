@@ -1,6 +1,6 @@
 <h1>Listagem Open!</h1>
 
-<?php debug($abertas);?>
+
     <?php foreach ($abertas as $key => $aberta): ?>
     <tr>
         <td><?php echo $aberta['Debt']['id'];  ?></td>

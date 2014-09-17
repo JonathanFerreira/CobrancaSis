@@ -1,0 +1,9 @@
+.color{
+	color: #4C925D !important;
+}
+label{
+	display: none !important;
+}
+.form-control{
+	margin-top: 16px;	
+}

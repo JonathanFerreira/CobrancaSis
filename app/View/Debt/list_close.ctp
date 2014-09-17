@@ -1,5 +1,5 @@
 <h1>Listagem Close!</h1>
-<?php debug($fechadas);?>
+
 
     <?php foreach ($fechadas as $key => $fechada): ?>
     <tr>

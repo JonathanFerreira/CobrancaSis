@@ -26,8 +26,9 @@
     echo $this->Html->script('bootstrap.min.js');
     echo $this->Html->script('plugins/metisMenu/metisMenu.min.js');
     echo $this->Html->script('sb-admin-2.js'); 
+    
     echo $this->Html->css('jquery-ui.css');//datepicker 
-
+    echo $this->Html->css('style.css');
     echo $this->Html->css('font-awesome/css/font-awesome.min.css');
     echo $this->Html->css('plugins/morris.css');
     echo $this->Html->css('sb-admin-2.css');
@@ -59,7 +60,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">CobrancaSis</a>
+                <a class="navbar-brand color" href="index.html">CobrancaSis</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -67,7 +68,7 @@
            <ul class="nav navbar-nav navbar-right navbar-user">
 
           <li class="dropdown user-dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo ($userName);?>   <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-fw color"></i> <?php echo ($userName);?>   <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li>
                 <?php echo $this->Html->link(__('Sair'), array(
@@ -82,11 +83,11 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
+                <div class="sidebar-nav navbar-collapse ">
                     <ul class="nav" id="side-menu">
                         <?php if($eAdmin): ?>
                         <li>
-                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Usuário<span class="fa arrow"></span></a>
+                             <a href="#"><i class="fa fa-bar-chart-o fa-fw "></i> Usuário<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
                                 <li>
                                      <?php
