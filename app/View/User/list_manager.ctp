@@ -11,7 +11,7 @@
                <!-- /.col-lg-6 -->
   <div class="col-lg-12">
      <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading"text- align="center">
             Administradores
           </div>
                         <!-- /.panel-heading -->
@@ -44,8 +44,7 @@
                                     <?php
                                        echo $this->Html->link(
                                             $admin['User']['name'], array(
-                                              'controller' =>'user',
-                                              'action' => 'view', 
+                                              'action' => 'view',
                                               $admin['User']['id']));
                                      ?>
                                 </td>

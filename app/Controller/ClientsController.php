@@ -48,15 +48,12 @@ class ClientsController extends AppController {
              }
      }
 
-     function delete($id) {
-        if (!$this->request->is('post')) {
-          throw new MethodNotAllowedException();
+      function delete($id) {      
+        if ($this->Client->delete($id,true)) {
+          $this->Session->setFlash('Cliente Deletado.');
+          $this->redirect(array('action' => 'index'));
         }
-        if ($this->Client->delete($id)) {
-           $this->Session->setFlash('Cliente Deletado!');
-           
-        }
-     }
+      }
 
      function list_clients(){
       $clientes = $this->Client->find('all');

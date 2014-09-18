@@ -25,6 +25,7 @@ class AppSchema extends CakeSchema {
 
 	public $debts = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
+		'client_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'dt_compra' => array('type' => 'date', 'null' => true, 'default' => null),
 		'dt_vencimento' => array('type' => 'date', 'null' => true, 'default' => null),
 		'dt_cobranca' => array('type' => 'date', 'null' => true, 'default' => null),
@@ -42,6 +43,7 @@ class AppSchema extends CakeSchema {
 
 	public $events = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
+		'debt_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'dt_evento' => array('type' => 'datetime', 'null' => false, 'default' => null),
 		'motivo' => array('type' => 'text', 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '
 ', 'charset' => 'utf8'),

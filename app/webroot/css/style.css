@@ -7,3 +7,7 @@ label{
 .form-control{
 	margin-top: 16px;	
 }
+
+.panel-green {
+    border-color: #5CB85C !important;
+}

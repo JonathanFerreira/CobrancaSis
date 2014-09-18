@@ -28,6 +28,13 @@ class Client extends AppModel {
          )
     );
 
+    public $hasMany = array(
+    'Debts' => array(
+    'className' => 'Debts',
+    'foreignKey' => 'client_id',
+    'dependent'=> true
+    ));
+
     
 
 }

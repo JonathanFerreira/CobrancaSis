@@ -14,9 +14,10 @@ class DebtsController extends AppController {
     }
 
 
-    public function add(){
+    public function add($id){
       if($this->request->is('post')){
         $this->request->data['Debt']['name'] = $this->Auth->user('name');
+        $this->request->data['Debt']['client_id'] = $id;
         $this->request->data['Debt']['fechado'] = 0;
        
          if ($this->Debt->save($this->request->data)) {

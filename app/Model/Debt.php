@@ -28,6 +28,14 @@ class Debt extends AppModel {
          )
     );
 
+    public $hasMany = array(
+    'Events' => array(
+    'className' => 'Events',
+    'foreignKey' => 'debt_id',
+    'dependent'=> true,
+    ));
+
+
     
     public function beforeSave($options = array()) {
         parent::beforeSave();
@@ -37,8 +45,6 @@ class Debt extends AppModel {
 
         return true;
     }
-
-    
 
 }
 ?>

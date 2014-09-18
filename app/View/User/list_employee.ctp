@@ -3,7 +3,7 @@
                <!-- /.col-lg-6 -->
   <div class="col-lg-12">
      <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading" text- align="center">
             Usuários
           </div>
                         <!-- /.panel-heading -->
@@ -36,7 +36,6 @@
                                     <?php
                                        echo $this->Html->link(
                                             $usuario['User']['name'], array(
-                                              'controller' =>'user',
                                               'action' => 'view', 
                                               $usuario['User']['id']));
                                      ?>

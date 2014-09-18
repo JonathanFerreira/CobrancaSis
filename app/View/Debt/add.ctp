@@ -1,4 +1,10 @@
-<h1>Adicionar Cobranca</h1>
+<?php  
+    $salvar = array(
+        'label' => 'Salvar',
+        'class' => 'btn btn-primary'
+    );
+
+?>
 
 
 
@@ -45,37 +51,57 @@ $(function() {
         monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
     });
 });
-</script>
+</script> 
 
 
+<div class="col-lg-6">
 
- 
+<h1 text align="center">Cadastrar Cobrança</h1>
 
-<?php
-   echo $this->Form->create('Debt');
 
-    echo $this->Form->input('dt_compra', array(
-        'label' => 'Data Compra:',        
+    <?php
+
+
+    echo $this->Form->create('Debt');
+
+    echo $this->Form->input('dt_compra',array(
+        'class' => 'form-control form-group',
+        'placeholder'=>'Compra',
         'type'=>'text',
-        'id'=>'calendario'));
+        'id'=>'calendario'
+         ));
 
-     echo $this->Form->input('dt_vencimento', array(
-        'label' => 'Data Vencimento:',
+    echo $this->Form->input('dt_vencimento',array(
+        'class' => 'form-control form-group',
+        'placeholder'=>'Vencimento',
         'type'=>'text',
-        'id'=>'calendario1'));
+        'id'=>'calendario1'
 
+         ));
 
-     echo $this->Form->input('dt_cobranca', array(
-        'label' => 'Data Cobrança:',
-        'type'=>'text',
-        'id'=>'calendario2'));
+    echo $this->Form->input('dt_cobranca',array(
+        'class' => 'form-control form-group',       
+        'placeholder'=>'Cobrança',
+        'type' => 'text',
+        'id'=> 'calendario2'
 
+         ));
 
+    echo $this->Form->input('valor',array(
+        'class' => 'form-control form-group',
+        'placeholder'=>'Valor'
 
-echo $this->Form->input('valor');
-echo $this->Form->input('tipo_cobranca');
-echo $this->Form->end('Salvar');
+         ));
 
-?>
+    echo $this->Form->input('tipo_cobranca',array(
+        'class' => 'form-control form-group',
+        'placeholder'=>'Tipo cobrança'
+         ));
 
+    
+    ?>
+     
+    <?php echo $this->Form->end($salvar);?>
+
+</div>
 
