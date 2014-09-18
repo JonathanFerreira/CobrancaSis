@@ -19,6 +19,11 @@
 		'placeholder'=>'Nome',
 		 ));
 
+	echo $this->Form->input('username',array(
+		'class' => 'form-control form-group',
+		'placeholder'=>'User Name',
+		 ));
+
 	echo $this->Form->input('password',array(
 		'class' => 'form-control form-group',
 		'placeholder'=>'Senha'

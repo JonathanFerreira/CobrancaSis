@@ -19,13 +19,18 @@
 		'placeholder'=>'Nome',
 		 ));
 
+	echo $this->Form->input('username',array(
+		'class' => 'form-control form-group',
+		'placeholder'=>'User Name',
+		 ));
+
 	echo $this->Form->input('password',array(
 		'class' => 'form-control form-group',
 		'placeholder'=>'Senha'
 
 		 ));
 
-	echo $this->Form->input('tell',array(
+	echo $this->Form->input('telefone',array(
 		'class' => 'form-control form-group',
 		'placeholder'=>'Telefone'
 
