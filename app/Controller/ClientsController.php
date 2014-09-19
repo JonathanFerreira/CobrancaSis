@@ -60,6 +60,31 @@ class ClientsController extends AppController {
       $this->set('clientes',$clientes);
      }
 
+     function search(){
+
+
+     }
+
+     function result_search(){
+          
+          $pegaCliente = $this->Client->find('first', 
+                array(
+                      'conditions' => array(
+                      'Client.CPF' => $this->request->data['Client']['CPF'],
+                      )));
+
+          if(!$pegaCliente){
+             $this->Session->setFlash('CPF não encontrado.');
+             $this->redirect(array('action'=>'search'));
+          }
+
+          $this->redirect(array('action'=>'view/ '.$pegaCliente['Client']['id']));
+
+          
+
+
+     }
+
      
 
  

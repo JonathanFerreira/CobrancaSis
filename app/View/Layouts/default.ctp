@@ -188,6 +188,13 @@
                                 </li>
                                 <li>
                                      <?php
+                                        echo $this->Html->link(__('Buscar'), 
+                                        array('controller' => 'clients', 
+                                          'action' => 'search'));
+                                       ?>
+                                </li>
+                                <li>
+                                     <?php
                                         echo $this->Html->link(__('Listar'), array(
                                        'controller' => 'clients', 'action' => 'list_clients'));
                                       ?>
