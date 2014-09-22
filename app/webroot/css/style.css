@@ -11,3 +11,12 @@ label{
 .panel-green {
     border-color: #5CB85C !important;
 }
+.btn-circle {
+    border-radius: 15px !important;
+}
+.btn-circle {
+    border-radius: 15px !important;
+    line-height: 1.42857 !important;
+    padding: 6px 0 !important;
+    text-align: center !important;
+}

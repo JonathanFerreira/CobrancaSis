@@ -47,12 +47,19 @@
                                     echo $cliente['Client']['email']; 
                                      ?>
                                 </td>
-                                <td> <?php echo $this->Html->link('cc',array(   'controller'=>'debts','action'=>'add',
-                                       $cliente['Client']['id']));
-                                      ?> 
+                                <td>  <a class="btn btn-primary btn-circle"  
+                                          href="<?php echo '../debts/add/'.$cliente['Client']['id']?>">
+                                          <i class="fa fa-pencil-square-o"></i>
+                                      </a> 
+                                      
 
-                                      <?php echo $this->Html->link('dl',array( 'controller'=>'clients','action'=>'delete',$cliente['Client']['id']));
-                                      ?>   
+                                      <a class="btn btn-danger btn-circle"
+                                         href="<?php echo '../clients/delete/'.$cliente['Client']['id']?>">
+                                          <i class="fa fa-times"></i>
+                                      </a> 
+                                      
+
+
 
 
                                  
@@ -71,6 +78,5 @@
      </div>
     <!-- /.col-lg-6 -->
  </div>
-
 
 
