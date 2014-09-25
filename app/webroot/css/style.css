@@ -20,3 +20,8 @@ label{
     padding: 6px 0 !important;
     text-align: center !important;
 }
+
+.btn-lateral{
+	float: right;
+	
+}

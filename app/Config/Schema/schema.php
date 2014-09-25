@@ -44,7 +44,8 @@ class AppSchema extends CakeSchema {
 	public $events = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'debt_id' => array('type' => 'integer', 'null' => false, 'default' => null),
-		'dt_evento' => array('type' => 'datetime', 'null' => false, 'default' => null),
+		'name' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'dt_evento' => array('type' => 'date', 'null' => false, 'default' => null),
 		'motivo' => array('type' => 'text', 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '
 ', 'charset' => 'utf8'),
 		'contato' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),

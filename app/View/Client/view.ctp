@@ -1,4 +1,10 @@
-
+<? $botao = array(
+        'label' => 'Editar',
+        'type' => 'button',
+        'class' => 'btn btn-primary'
+        
+    );
+?>
 
  <div class="col-lg-6">
 	
@@ -30,8 +36,27 @@
 	    </div>
 	 
 	 </div>
-	
+
+
 
 </div>
+     
+
+ 
+     <a class="btn btn-primary" href="<?php echo '../debts/add/'.$cliente['Client']['id']?>"> Cadastrar Cobrança
+     </a> 
+
+      <a class="btn btn-primary btn-circle" href="<?php echo '../debts/add/'.
+         $cliente['Client']['id']?>">
+          <i class="fa fa-pencil-square-o"></i>
+      </a> 
+
+     <a class="btn btn-warning " href="<?php echo '../clients/edit/'.$cliente['Client']['id']?>"> Editar        
+     </a>               
+
+      <a class="btn btn-danger " href="<?php echo '../clients/delete/'.$cliente['Client']['id']?>">Excluir
+        
+      </a>        
+
 
  

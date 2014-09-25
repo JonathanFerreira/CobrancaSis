@@ -51,6 +51,11 @@
                                           href="<?php echo '../debts/add/'.$cliente['Client']['id']?>">
                                           <i class="fa fa-pencil-square-o"></i>
                                       </a> 
+
+                                       <a class="btn btn-warning btn-circle"  
+                                          href="<?php echo '../clients/edit/'.$cliente['Client']['id']?>">
+                                          <i class="fa fa-cogs"></i>
+                                      </a> 
                                       
 
                                       <a class="btn btn-danger btn-circle"
