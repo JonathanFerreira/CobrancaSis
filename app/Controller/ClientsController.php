@@ -3,7 +3,7 @@ class ClientsController extends AppController {
     public $helpers = array ('Html','Form');
     public $name = 'Client';
     public $components = array('Session');
-   // public $uses = array('User','Debt');
+    public $uses = array('Client','User','Debt');
     
      
 
@@ -26,14 +26,23 @@ class ClientsController extends AppController {
 
         }
     }
-
+    
 
       public function view($id) {
         $this->Client->id = $id;
         $this->set('cliente', $this->Client->read());
-   
 
-      }
+
+      $cobrancas = $this->Debt-> find("all", array(
+            'conditions' => array(
+             'Debt.client_id' => $id
+            
+              ),
+            'order'=>array('Debt.fechado asc')
+            )); 
+        $this->set('cobrancas',$cobrancas);
+
+     }
 
     function edit($id = null) {
        $this->Client->id = $id;

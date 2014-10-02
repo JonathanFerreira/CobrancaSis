@@ -7,11 +7,7 @@
 	    </div>
 	    <div class="panel-body">
 	        <p> 
-	           Cadastrada:  <?php echo $cobranca['Debt']['name'] ?> 
-	        </p>
-
-	        <p>
-	           id:  <?php echo $cobranca['Debt']['id'] ?> 
+	           Cadastrada por:  <?php echo $cobranca['Debt']['name'] ?> 
 	        </p>
 
 	        <p>
@@ -37,6 +33,11 @@
 	    </div>
 	 
 	 </div>
+
+	   <?php 
+         echo $this->Html->link('Pagar',array(
+         	  'action'=>'pay',$cobranca['Debt']['id']));
+       ?>
 	
 
 </div>

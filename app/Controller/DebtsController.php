@@ -58,6 +58,20 @@ class DebtsController extends AppController {
       }
     }
 
+    function pay($id = null) {
+
+           $this->Debt->id = $id;
+           
+           $this->request->data = $this->Debt->read();
+          
+           
+           $this->Debt->updateAll(
+              array('Debt.fechado' => 1),
+              array('Debt.id' => $id)
+          );          
+
+    }
+
       function list_open(){
       $abertas = $this->Debt-> find("all", array(
             'conditions' => array(

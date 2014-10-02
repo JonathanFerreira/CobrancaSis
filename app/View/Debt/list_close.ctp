@@ -1,25 +1,12 @@
-<h1>Listagem Close!</h1>
+<h1>Listagem de cobranças encerradas</h1>
 
-
-    <?php foreach ($fechadas as $key => $fechada): ?>
-    <tr>
-        <td><?php echo $fechada['Debt']['id']; ?></td>
-        <td>
-            <?php echo $fechada['Debt']['valor'];?>
-        </td>
-        <td><?php echo $fechada['Debt']['created']; ?></td>
-    </tr>
-    <?php endforeach; ?>
 
 
     <div class="row">
                <!-- /.col-lg-6 -->
   <div class="col-lg-12">
      <div class="panel panel-default">
-          <div class="panel-heading">
-            Usuários
-          </div>
-                        <!-- /.panel-heading -->
+     
         <div class="panel-body">
               <div class="table-responsive">
                   <table class="table">
@@ -61,7 +48,7 @@
                                 </td>
                                 <td> 
                                     <?php  
-                                       echo $fechada['Debt']['cobranca']; 
+                                       echo $fechada['Debt']['tipo_cobranca']; 
                                     ?>  
 
                                 </td>

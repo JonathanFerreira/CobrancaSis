@@ -1,26 +1,10 @@
-<h1>Listagem Open!</h1>
+<h1>Listagem de cobrancas em aberto</h1>
 
-
-    <?php foreach ($abertas as $key => $aberta): ?>
-    <tr>
-        <td><?php echo $aberta['Debt']['id'];  ?></td>
-        <td>
-            <?php echo $aberta['Debt']['valor'];?>
-
-        </td>
-        <td><?php echo $aberta['Debt']['created']; ?></td>
-    </tr>
-    <?php endforeach; ?>
-
-
-    <div class="row">
+<div class="row">
                <!-- /.col-lg-6 -->
   <div class="col-lg-12">
      <div class="panel panel-default">
-          <div class="panel-heading">
-            Usuários
-          </div>
-                        <!-- /.panel-heading -->
+       
         <div class="panel-body">
               <div class="table-responsive">
                   <table class="table">
