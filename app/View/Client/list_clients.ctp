@@ -58,11 +58,9 @@
                                       </a> 
                                       
 
-                                      <a class="btn btn-danger btn-circle"
-                                         href="<?php echo '../clients/delete/'.$cliente['Client']['id']?>">
-                                          <i class="fa fa-times"></i>
-                                      </a> 
-                                      
+                                      <button data-target="#myModal" data-toggle="modal" class="btn btn-danger btn-circle">
+                                       <i class="fa fa-times"></i>
+                                      </button>
 
 
 
@@ -84,4 +82,32 @@
     <!-- /.col-lg-6 -->
  </div>
 
+
+
+<div class="panel-body">
+   <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <h4 id="myModalLabel" class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    Excluir esse cliente resultará na exclusão de todas as cobranças pertencente ao mesmo. Tem certeza disso?
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
+                     <a class="btn btn-danger"  
+                        href="<?php echo '../clients/delete/'.$cliente
+                         ['Client']['id']?>"> Excluir
+                    </a> 
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
 

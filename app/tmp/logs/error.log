@@ -22183,3 +22183,688 @@ Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
 Stack Trace:
 #0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-10-02 23:54:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-02 23:54:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-02 23:54:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-02 23:54:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-02 23:54:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-02 23:54:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 00:01:52 Error: Fatal Error (4): syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Client/view.ctp, line 132]
+2014-10-03 00:01:52 Error: [FatalErrorException] syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';'
+Request URL: /CobrancaSis/clients/view/5
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 00:01:54 Error: Fatal Error (4): syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Client/view.ctp, line 132]
+2014-10-03 00:01:54 Error: [FatalErrorException] syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';'
+Request URL: /CobrancaSis/clients/view/5
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 00:01:55 Error: Fatal Error (4): syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Client/view.ctp, line 132]
+2014-10-03 00:01:55 Error: [FatalErrorException] syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';'
+Request URL: /CobrancaSis/clients/view/5
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 00:01:55 Error: Fatal Error (4): syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Client/view.ctp, line 132]
+2014-10-03 00:01:55 Error: [FatalErrorException] syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';'
+Request URL: /CobrancaSis/clients/view/5
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 00:01:55 Error: Fatal Error (4): syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Client/view.ctp, line 132]
+2014-10-03 00:01:55 Error: [FatalErrorException] syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';'
+Request URL: /CobrancaSis/clients/view/5
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 00:01:55 Error: Fatal Error (4): syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Client/view.ctp, line 132]
+2014-10-03 00:01:55 Error: [FatalErrorException] syntax error, unexpected 'onClick' (T_STRING), expecting ',' or ';'
+Request URL: /CobrancaSis/clients/view/5
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 132, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 00:10:03 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /CobrancaSis/debts/delete/3
+Stack Trace:
+#0 [internal function]: DebtsController->delete('3')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 00:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 16:19:46 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /CobrancaSis/debts/delete/3
+Stack Trace:
+#0 [internal function]: DebtsController->delete('3')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 17:04:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 17:04:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 17:04:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 17:04:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 17:04:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 17:04:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 18:07:05 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_employee
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('User')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_employee.ctp(55): View->__get('User')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 18:07:07 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_employee
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('User')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_employee.ctp(55): View->__get('User')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 18:07:08 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_employee
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('User')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_employee.ctp(55): View->__get('User')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 18:07:32 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_employee
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('User')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_employee.ctp(55): View->__get('User')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 18:09:17 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/edit/25
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 18:17:43 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/edit/25
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 18:20:19 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/user/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-03 19:10:06 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 [internal function]: UsersController->delete('26')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:11:26 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:11:46 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:11:47 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:11:48 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:11:48 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:11:49 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:11:49 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:12:12 Error: [MissingViewException] View file "/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/delete.ctp',
+)
+Request URL: /CobrancaSis/users/delete/26
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-03 19:18:50 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 66]
+2014-10-03 19:18:50 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:18:52 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 66]
+2014-10-03 19:18:52 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:18:55 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 66]
+2014-10-03 19:18:55 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:18:56 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 66]
+2014-10-03 19:18:56 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:18:56 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 66]
+2014-10-03 19:18:56 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 66, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:03 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 62]
+2014-10-03 19:19:03 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:04 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 62]
+2014-10-03 19:19:04 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:05 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 62]
+2014-10-03 19:19:05 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:05 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 62]
+2014-10-03 19:19:05 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:05 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 62]
+2014-10-03 19:19:05 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:05 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 62]
+2014-10-03 19:19:05 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 62, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:32 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 63]
+2014-10-03 19:19:32 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:33 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 63]
+2014-10-03 19:19:33 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:33 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 63]
+2014-10-03 19:19:33 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:33 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 63]
+2014-10-03 19:19:33 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:19:34 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp, line 63]
+2014-10-03 19:19:34 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 63, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 19:21:17 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('User')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('User')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp(62): View->__get('User')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 19:22:19 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp(62): View->__get('Auth')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 19:22:20 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp(62): View->__get('Auth')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 19:22:21 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp(62): View->__get('Auth')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 19:22:21 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp(62): View->__get('Auth')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 19:22:22 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp(62): View->__get('Auth')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-03 19:22:23 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /CobrancaSis/users/list_manager
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(835): HelperCollection->__isset('Auth')
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/User/list_manager.ctp(62): View->__get('Auth')
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(947): include('/home/webgoal2/...')
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(909): View->_evaluate('/home/webgoal2/...', Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/View/View.php(471): View->_render('/home/webgoal2/...')
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

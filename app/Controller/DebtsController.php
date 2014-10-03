@@ -48,10 +48,7 @@ class DebtsController extends AppController {
              }
     }
 
-    function delete($id) {
-      if (!$this->request->is('post')) {
-        throw new MethodNotAllowedException();
-      }
+    function delete($id) {   
       if ($this->Debt->delete($id)) {
          $this->Session->setFlash('Cobrança Deletada!');
          $this->redirect(array('action' => 'index'));

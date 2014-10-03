@@ -53,7 +53,7 @@ class AppController extends Controller {
         );
 
     var $permissoesAdmin = array(
-        'users' => array('login' => true,'logout' => true, 'index' => true,  'teste2' => true, 'add_manager' => true, 'add_employee' => true, 'list_manager' => true, 'list_employee' => true,'view'=>true),
+        'users' => array('add_manager' => true, 'add_employee' => true,'edit' => true,'delete' => true,'login' => true,'logout' => true, 'index' => true,  'teste2' => true,'list_manager' => true, 'list_employee' => true,'view'=>true),
         'debts' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'list_open' => true,'list_close' => true,'pay' => true),
         'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true,'search'=>true,'result_search'=>true)
         );
@@ -68,6 +68,8 @@ class AppController extends Controller {
         $this->set('eAdmin', $eAdmin);
         $userName = $this->Auth->user('name');
         $this->set('userName', $userName);
+        $idLogado = $this->Auth->user('id');
+        $this->set('idLogado',$idLogado);
 
         $funcionarioTemPermissao = !empty($this->permissoesFuncionario[$this->request->params['controller']][$this->request->params['action']]);
         if(!$eAdmin AND $funcionarioTemPermissao) return;

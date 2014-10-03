@@ -49,10 +49,9 @@
           Editar
     </a> 
 
-     <a class="btn btn-danger"  
-        href="<?php echo '../delete/'.$cliente['Client']['id']?>">
-         Excluir
-    </a> 
+    <button data-target="#confirmClient" data-toggle="modal" 
+      class="btn btn-danger"> Excluir
+    </button> 
 </div> 
 
 
@@ -66,6 +65,9 @@
                <!-- /.col-lg-6 -->
   <div class="col-lg-12">
      <div class="panel panel-default">
+     <div class="panel-heading">
+        Cobranças do Cliente
+     </div>
        
         <div class="panel-body">
               <div class="table-responsive">
@@ -128,16 +130,17 @@
                                           href="<?php echo '../../debts/pay/'.$cobranca['Debt']['id']?>">
                                           <i class="fa fa-check"></i>
                                       </a> 
+
                                 	   <a class="btn btn-warning btn-circle"  
                                           href="<?php echo '../../debts/edit/'.$cobranca['Debt']['id']?>">
                                           <i class="fa fa-cogs"></i>
                                       </a> 
+
+                                       <button data-target="#confirmDebt" data-toggle="modal" class="btn btn-danger btn-circle">
+                                       <i class="fa fa-times"></i>
+                                      </button>
                                       
 
-                                      <a class="btn btn-danger btn-circle"
-                                         href="<?php echo '../../debts/delete/'.$cobranca['Debt']['id']?>">
-                                          <i class="fa fa-times"></i>
-                                      </a> 
                                 </td>
                             </tr>
                             <?php endforeach; ?>
@@ -152,6 +155,60 @@
      </div>
     <!-- /.col-lg-6 -->
  </div>
+
+<div class="panel-body">    
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="confirmDebt" class="modal fade" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <h4 id="myModalLabel" class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    Tem certeza que deseja excluir essa cobrança?
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
+                     <a class="btn btn-danger"  
+                         href="<?php echo '../../debts/delete/'.
+                         $cobranca['Debt']['id']?>"> Excluir
+                      </a> 
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+
+<div class="panel-body">    
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="confirmClient" class="modal fade" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <h4 id="myModalLabel" class="modal-title">Atenção</h4>
+                </div>
+                <div class="modal-body">
+                    Excluir esse cliente resultará na exclusão de todas as cobranças pertencente ao mesmo. Tem certeza disso?
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
+                     <a class="btn btn-danger"  
+                         href="<?php echo '../delete/'.$cliente['Client']['id']?>"> Excluir
+                      </a> 
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+
 
 
 

@@ -123,13 +123,10 @@ class UsersController extends AppController {
              }
      }
 
-     function delete($id) {
-        if (!$this->request->is('post')) {
-          throw new MethodNotAllowedException();
-        }
+     function delete($id) {     
         if ($this->User->delete($id)) {
            $this->Session->setFlash('Cobrança Deletada!');
-           //$this->redirect(array('action' => 'index'));
+           $this->redirect(array('action' => 'index'));
         }
      }
 
