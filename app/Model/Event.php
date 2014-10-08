@@ -26,7 +26,7 @@ class Event extends AppModel {
     
     public function beforeSave($options = array()) {
         parent::beforeSave();
-        $this->data['Event']['dt_evento'] = implode('-',array_reverse(explode('/',$this->data['Debt']['dt_compra'])));       
+        $this->data['Event']['dt_evento'] = implode('-',array_reverse(explode('/',$this->data['Event']['dt_evento'])));       
         return true;
     }
 

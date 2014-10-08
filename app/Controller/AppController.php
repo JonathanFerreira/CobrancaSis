@@ -55,7 +55,8 @@ class AppController extends Controller {
     var $permissoesAdmin = array(
         'users' => array('add_manager' => true, 'add_employee' => true,'edit' => true,'delete' => true,'login' => true,'logout' => true, 'index' => true,  'teste2' => true,'list_manager' => true, 'list_employee' => true,'view'=>true),
         'debts' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'list_open' => true,'list_close' => true,'pay' => true),
-        'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true,'search'=>true,'result_search'=>true)
+        'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true,'search'=>true,'result_search'=>true),
+        'events' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true)
         );
     
     

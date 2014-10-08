@@ -7,8 +7,8 @@ class EventsController extends AppController {
    
     
     function index(){
-       $this->Debt->recursive = 0;
-       $this->set('debts', $this->paginate());      
+       $this->Event->recursive = 0;
+       $this->set('events', $this->paginate());      
 
     }
 
@@ -18,7 +18,7 @@ class EventsController extends AppController {
         $this->request->data['Event']['name'] = $this->Auth->user('name');
         $this->request->data['Event']['debt_id'] = $id;        
        
-         if ($this->Debt->save($this->request->data)) {
+         if ($this->Event->save($this->request->data)) {
                 $this->Session->setFlash('Evento cadastrada com sucesso!');
                 //$this->redirect(array('action' => 'index'));
           }else{
@@ -37,9 +37,9 @@ class EventsController extends AppController {
     function edit($id = null) {
        $this->Event->id = $id;
        if ($this->request->is('get')) {
-           $this->request->data = $this->Debt->read();
+           $this->request->data = $this->Event->read();
         } else {
-                 if ($this->Debt->save($this->request->data)) {
+                 if ($this->Event->save($this->request->data)) {
                     $this->Session->setFlash('Evento Alterado com Sucesso!');
                    //$this->redirect(array('action' => 'index'));
                   }
@@ -47,12 +47,10 @@ class EventsController extends AppController {
     }
 
     function delete($id) {
-      if (!$this->request->is('post')) {
-        throw new MethodNotAllowedException();
-      }
-      if ($this->Debt->delete($id)) {
+  
+      if ($this->Event->delete($id)) {
          $this->Session->setFlash('Evento Deletado!');
-         //$this->redirect(array('action' => 'index'));
+         $this->redirect(array('action' => 'index'));
       }
     }
 

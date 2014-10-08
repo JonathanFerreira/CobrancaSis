@@ -3,7 +3,7 @@ class DebtsController extends AppController {
     public $helpers = array ('Html','Form');
     public $name = 'Debt';
     public $components = array('Session');
-    public $uses = array('Debt','User');
+    public $uses = array('Debt','User','Event');
    
     
     function index(){
@@ -33,6 +33,15 @@ class DebtsController extends AppController {
     public function view($id) {
         $this->Debt->id = $id;
         $this->set('cobranca', $this->Debt->read());   
+
+        $eventos = $this->Event-> find("all", array(
+        'conditions' => array(
+         'Event.debt_id' => $id
+        
+          ),
+        'order'=>array('Event.dt_evento asc')
+        )); 
+    $this->set('eventos',$eventos);
 
     }
 

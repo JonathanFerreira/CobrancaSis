@@ -38,14 +38,12 @@
          echo $this->Html->link('Pagar',array(
          	  'action'=>'pay',$cobranca['Debt']['id']));
        ?>
-
-       <?php 
-         echo $this->Html->link('Cadastrar Evento',array(
-         	'controller'=>'events','action'=>'add',$cobranca['Debt']['id']));
-       ?>
 	
 
 </div>
+
+
+
 
 
 <div class="row">
@@ -53,7 +51,7 @@
   <div class="col-lg-12">
      <div class="panel panel-default">
      <div class="panel-heading">
-        Eventos da Cobrança
+        Cobranças do Cliente
      </div>
        
         <div class="panel-body">
@@ -63,9 +61,9 @@
                             <tr>
                                 <th>Id</th>
                                 <th>Data Evento</th>
+                                <th>Motivo</th>
                                 <th>Contato</th>
-                                <th>Motivo</th>                               
-                                <th>Observação</th>
+                                <th>Observação</th>                        
                                 <th>Opcões</th>
                             </tr>
                         </thead>
@@ -82,7 +80,7 @@
                                     <?php
                                        echo $this->Html->link(
                                             $evento['Event']['id'], array(
-                                              'controller'=>'events','action' => 'view', 
+                                              'controller'=>'debts','action' => 'view', 
                                               $evento['Event']['id']));
                                      ?>
                                </td>
@@ -93,7 +91,7 @@
                                 </td>
                                 <td>
                                     <?php  
-                                    echo $evento['Event']['motivo']; 
+                                    echo $evento['Evento']['motivo']; 
                                      ?>
                                 </td>
                                 <td> 
@@ -107,9 +105,10 @@
                                        echo $evento['Event']['observacao']; 
                                     ?>  
 
-                                </td>                             
-                                <td> 
-                                	   <a class="btn btn-warning btn-circle"  
+                                </td>
+                             
+                                <td>  
+                                	 <a class="btn btn-warning btn-circle"  
                                           href="<?php echo '../../events/edit/'.$evento['Event']['id']?>">
                                           <i class="fa fa-cogs"></i>
                                       </a> 
@@ -136,33 +135,6 @@
 
 <div class="panel-body">    
     <!-- Modal -->
-    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="confirmDebt" class="modal fade" style="display: none;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                    <h4 id="myModalLabel" class="modal-title">Modal title</h4>
-                </div>
-                <div class="modal-body">
-                    Tem certeza que deseja excluir essa cobrança?
-                </div>
-                <div class="modal-footer">
-                    <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
-                     <a class="btn btn-danger"  
-                         href="<?php echo '../../debts/delete/'.
-                         $cobranca['Debt']['id']?>"> Excluir
-                      </a> 
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
-</div>
-
-<div class="panel-body">    
-    <!-- Modal -->
     <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="confirmEvent" class="modal fade" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -171,12 +143,13 @@
                     <h4 id="myModalLabel" class="modal-title">Atenção</h4>
                 </div>
                 <div class="modal-body">
-                    Excluir esse cliente resultará na exclusão de todas as cobranças pertencente ao mesmo. Tem certeza disso?
+                    Tem certeza que deseja excluir esse evento?
                 </div>
                 <div class="modal-footer">
                     <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
                      <a class="btn btn-danger"  
-                         href="<?php echo '../../events/delete/'.$evento['Event']['id']?>"> Excluir
+                         href="<?php echo '../../events/delete/'.
+                         $evento['Event']['id']?>"> Excluir
                       </a> 
                 </div>
             </div>
@@ -186,15 +159,4 @@
     </div>
     <!-- /.modal -->
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
