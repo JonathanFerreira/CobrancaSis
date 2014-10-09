@@ -98,7 +98,7 @@
                     <h4 id="myModalLabel" class="modal-title">Atenção</h4>
                 </div>
                 <div class="modal-body">
-                   Tem certeza disso que deseja excluir esse usuario?
+                   Tem certeza disso que deseja excluir esse administrador?
                 </div>
                 <div class="modal-footer">
                     <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>

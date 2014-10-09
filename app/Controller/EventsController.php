@@ -46,11 +46,10 @@ class EventsController extends AppController {
              }
     }
 
-    function delete($id) {
-  
+    function delete($id) {  
       if ($this->Event->delete($id)) {
          $this->Session->setFlash('Evento Deletado!');
-         $this->redirect(array('action' => 'index'));
+         $this->redirect(array('controller'=>'users','action' => 'index'));
       }
     }
 

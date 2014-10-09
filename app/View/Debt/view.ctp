@@ -34,15 +34,30 @@
 	 
 	 </div>
 
-	   <?php 
-         echo $this->Html->link('Pagar',array(
-         	  'action'=>'pay',$cobranca['Debt']['id']));
-       ?>
+   <div class="btns-clients">   
+     
+     <?php if($cobranca['Debt']['fechado']==0):?>
+         <a class="btn btn-primary"  
+            href="<?php echo '../../events/add/'.$cobranca['Debt']['id']?>">
+            Gerar Evento
+        </a> 
 
-       <?php 
-         echo $this->Html->link('Cadastrar Evento',array(
-         	'controller'=>'events','action'=>'add',$cobranca['Debt']['id']));
-       ?>
+        <button data-target="#confirmPay" data-toggle="modal" 
+          class="btn btn-success"> Encerrar
+        </button> 
+
+        
+        <a class="btn btn-warning"  
+           href="<?php echo '../edit/'.$cobranca['Debt']['id']?>">
+           Editar
+        </a> 
+
+    <?php endif;?>
+
+        <button data-target="#confirmDebt" data-toggle="modal" 
+          class="btn btn-danger"> Excluir
+        </button> 
+   </div> 
 	
 
 </div>
@@ -130,8 +145,10 @@
                         <!-- /.panel-body -->
          </div>
         <!-- /.panel -->
+
      </div>
     <!-- /.col-lg-6 -->
+
  </div>
 
 <div class="panel-body">    
@@ -141,10 +158,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                    <h4 id="myModalLabel" class="modal-title">Modal title</h4>
+                    <h4 id="myModalLabel" class="modal-title">Atenção</h4>
                 </div>
                 <div class="modal-body">
-                    Tem certeza que deseja excluir essa cobrança?
+                    Excluir essa cobrança resultará na exclusão de todos os
+                    eventos também. Tem certeza disso?
                 </div>
                 <div class="modal-footer">
                     <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
@@ -171,7 +189,7 @@
                     <h4 id="myModalLabel" class="modal-title">Atenção</h4>
                 </div>
                 <div class="modal-body">
-                    Excluir esse cliente resultará na exclusão de todas as cobranças pertencente ao mesmo. Tem certeza disso?
+                    Tem certeza que deseja excluir esse evento?
                 </div>
                 <div class="modal-footer">
                     <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
@@ -187,6 +205,31 @@
     <!-- /.modal -->
 </div>
 
+<div class="panel-body">    
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="confirmPay" class="modal fade" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <h4 id="myModalLabel" class="modal-title">Atenção</h4>
+                </div>
+                <div class="modal-body">
+                 Tem certeza que deseja encerrar essa cobrança?
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
+                     <a class="btn btn-success"  
+                         href="<?php echo '../../debts/pay/'.$cobranca['Debt']['id']?>"> Encerrar
+                      </a> 
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
 
 
 

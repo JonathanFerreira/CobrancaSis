@@ -124,13 +124,7 @@
                              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cobranças<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
                                 <li>
-                                     <?php
-                                        echo $this->Html->link(__('Cadastrar'), array(
-                                       'controller' => 'debts', 'action' => 'add'));
-                                      ?>
-                                </li>
                                  <li>
-                                     <li>
                                     <a>Listar <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
@@ -151,7 +145,7 @@
                                      </ul>
                                      <!-- /.nav-third-level -->
                                  </li>
-                                 </li>
+                                </li>
                               
                             </ul>
                         </li>
