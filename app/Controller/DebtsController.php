@@ -94,6 +94,15 @@ class DebtsController extends AppController {
       $this->set('fechadas',$fechadas);
      }
 
+     function list_today(){
+       $cobrancas = $this->Debt-> find("all", array(
+            'conditions' => array(
+            'Debt.fechado' => 0,
+            'Debt.dt_cobranca' =>  date('Y-m-d')
+          ))); 
+        $this->set('cobrancas',$cobrancas);
+     }
+
 }
 
 ?>

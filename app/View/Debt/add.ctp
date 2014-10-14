@@ -7,12 +7,12 @@
 ?>
 
 
-
 <script>
 
 $(function() {
 
     $("#calendario").datepicker({
+        minDate: '0',
         dateFormat: 'dd/mm/yy',
         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
         dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
@@ -28,6 +28,7 @@ $(function() {
 $(function() {
 
     $("#calendario1").datepicker({
+        minDate: '0',
         dateFormat: 'dd/mm/yy',
         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
         dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
@@ -43,6 +44,7 @@ $(function() {
 $(function() {
 
     $("#calendario2").datepicker({
+        minDate: '0',
         dateFormat: 'dd/mm/yy',
         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
         dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
@@ -68,14 +70,16 @@ $(function() {
         'class' => 'form-control form-group',
         'placeholder'=>'Compra',
         'type'=>'text',
-        'id'=>'calendario'
+        'id'=>'calendario',
+        'readonly'=>'true'
          ));
 
     echo $this->Form->input('dt_vencimento',array(
         'class' => 'form-control form-group',
         'placeholder'=>'Vencimento',
         'type'=>'text',
-        'id'=>'calendario1'
+        'id'=>'calendario1',
+        'readonly'=>'true'
 
          ));
 
@@ -83,7 +87,8 @@ $(function() {
         'class' => 'form-control form-group',       
         'placeholder'=>'Cobrança',
         'type' => 'text',
-        'id'=> 'calendario2'
+        'id'=> 'calendario2',
+        'readonly'=>'true'
 
          ));
 

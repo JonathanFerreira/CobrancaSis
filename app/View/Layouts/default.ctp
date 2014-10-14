@@ -75,7 +75,14 @@
                   'controller' => 'users', 
                   'action' => 'logout'
                   ));?>
-                <i class="fa fa-power-off" style='float: right !important;margin-top: -20px;'></i>
+                 <i class="fa fa-power-off" style='float: right !important;margin-top: -20px;'></i>
+
+                <?php echo $this->Html->link(__('Perfil'), array(
+                  'controller' => 'users','action' => 'edit',$idLogado 
+
+                  ));?>
+                   <i class="fa fa-cogs" style='float: right !important;margin-top: -20px;'></i>      
+             
                 </li>
               </ul>
             </li>

@@ -57,7 +57,11 @@
                                     ?>  
 
                                 </td>
-                                <td>                                     
+                                <td> 
+                                      <a class="btn btn-primary btn-circle"  
+                                          href="<?php echo '../events/add/'.$aberta['Debt']['id']?>">
+                                          <i class="fa fa-tags"></i>
+                                      </a>                                   
                                       <button data-target="#confirmPay" data-toggle="modal" class="btn btn-success btn-circle">
                                        <i class="fa fa-check"></i>
                                       </button>

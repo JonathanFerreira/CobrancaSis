@@ -2,7 +2,7 @@
 	
 	<div class="panel panel-primary ">
 	    <div class="panel-heading ">
-	        Administrador
+	        Perfil
 	    </div>
 	    <div class="panel-body">
 	        <p>
@@ -50,7 +50,7 @@
                     <h4 id="myModalLabel" class="modal-title">Atenção</h4>
                 </div>
                 <div class="modal-body">
-                  Tem certeza que deseja excluir esse administrador?
+                  Tem certeza que deseja excluir esse usuário?
                 </div>
                 <div class="modal-footer">
                     <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>

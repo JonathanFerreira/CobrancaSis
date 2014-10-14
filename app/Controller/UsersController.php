@@ -9,8 +9,22 @@ class UsersController extends AppController {
 
      function index() {
        $this->User->recursive = 0;
-       $this->set('users', $this->paginate());
+       $this->set('users', $this->paginate()); 
+     
 
+        $totalDebtsToday = $this->Debt->find('count', array(
+            'conditions' => array(
+            'Debt.fechado' => 0,
+            'Debt.dt_cobranca' =>  date('Y-m-d')
+         )));
+        
+        $this->set('totalToday',$totalDebtsToday);
+    }
+
+     function statistic() {
+       $this->User->recursive = 0;
+       $this->set('users', $this->paginate());
+  /*
       $admins = $this->User-> find("all", array(
             'conditions' => array(
             'User.group' => 1
@@ -24,21 +38,30 @@ class UsersController extends AppController {
           )));  
    
         $this->set('usuarios',$usuarios);
+*/
+        $totalDebtsToday = $this->Debt->find('count', array(
+            'conditions' => array(
+            'Debt.fechado' => 0,
+            'Debt.dt_cobranca' =>  date('Y-m-d')
+         )));
         
-    }
+        $this->set('totalToday',$totalDebtsToday);
 
-    function teste1(){
-      $nomeUser = $this->Auth->user('name');
-          
-       $this->set('nomeUser', $nomeUser);      
-       echo "administrador";
+       $totalDebtsOpen = $this->Debt->find('count', array(
+            'conditions' => array(
+            'Debt.fechado' => 0
+            
+         )));
 
-    }
+        $this->set('totalOpen',$totalDebtsOpen);
 
-    function teste2(){
-      $nomeUser = $this->Auth->user('name');
-      $this->set('nomeUser', $nomeUser);
-      echo "usuario";
+         $totalDebtsClose = $this->Debt->find('count', array(
+            'conditions' => array(
+            'Debt.fechado' => 1
+            
+         )));
+
+        $this->set('totalClose',$totalDebtsClose);
     }
 
     public function beforeFilter() {
