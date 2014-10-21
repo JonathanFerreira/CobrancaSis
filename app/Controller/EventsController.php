@@ -19,10 +19,26 @@ class EventsController extends AppController {
         $this->request->data['Event']['debt_id'] = $id;        
        
          if ($this->Event->save($this->request->data)) {
-                $this->Session->setFlash('Evento cadastrada com sucesso!');
-                //$this->redirect(array('action' => 'index'));
+               $this->Session->setFlash(' <div class="alert alert-info">
+                               Evento cadastrada com sucesso! 
+                            </div>');
+            
+            if($this->Auth->user('group') == 0){
+             $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+             }else{
+                $this->redirect(array('controller'=>'users','action'=>'statistic'));
+               }
+
           }else{
             $this->Session->setFlash('Houve um erro ao cadastrar o evento!');
+            if($this->Auth->user('group') == 0){
+              $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+             }else{
+                $this->redirect(array('controller'=>'users','action'=>'statistic'));
+               }
+
           }
       }
     }
@@ -40,7 +56,9 @@ class EventsController extends AppController {
            $this->request->data = $this->Event->read();
         } else {
                  if ($this->Event->save($this->request->data)) {
-                    $this->Session->setFlash('Evento Alterado com Sucesso!');
+                    $this->Session->setFlash('<div class="alert alert-warning">
+                               Evento editado com sucesso! 
+                            </div>');
                    //$this->redirect(array('action' => 'index'));
                   }
              }
@@ -48,7 +66,9 @@ class EventsController extends AppController {
 
     function delete($id) {  
       if ($this->Event->delete($id)) {
-         $this->Session->setFlash('Evento Deletado!');
+         $this->Session->setFlash('<div class="alert alert-danger">
+                               Evento deletado com sucesso! 
+                            </div>');
          $this->redirect(array('controller'=>'users','action' => 'index'));
       }
     }

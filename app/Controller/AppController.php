@@ -47,14 +47,15 @@ class AppController extends Controller {
         );
 
     var $permissoesFuncionario = array(
-        'users' => array('login' => true,'logout' => true, 'change_pass' => true, 'teste2' => true),
-        'debts' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'list_open' => true,'list_close' => true,'pay' => true),
-        'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true,'search'=>true,'result_search'=>true)
+        'users' => array('login' => true,'logout' => true, 'change_pass' => true, 'index' => true),
+        'debts' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'pay' => true,'list_today' => true),
+        'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true),
+        'events' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true)
         );
 
     var $permissoesAdmin = array(
         'users' => array('add_manager' => true, 'add_employee' => true,'edit' => true,'delete' => true,'login' => true,'logout' => true, 'index' => true,'list_manager' => true, 'list_employee' => true,'view'=>true,'statistic' => true),
-        'debts' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'list_open' => true,'list_close' => true,'pay' => true,'list_today' => true),
+        'debts' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'list_open' => true,'list_close' => true,'pay' => true,'list_today' => true,'search_debt' => true,'result' => true),
         'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true,'search'=>true,'result_search'=>true),
         'events' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true)
         );

@@ -74,7 +74,7 @@
                   <table class="table">
                         <thead>
                             <tr>
-                                <th>Id</th>
+                                <th>Informações</th>
                                 <th>Compra</th>
                                 <th>Vencimento</th>
                                 <th>Cobrança</th>
@@ -95,7 +95,7 @@
                                 <td>
                                     <?php
                                        echo $this->Html->link(
-                                            $cobranca['Debt']['id'], array(
+                                            'Detalhes', array(
                                               'controller'=>'debts','action' => 'view', 
                                               $cobranca['Debt']['id']));
                                      ?>

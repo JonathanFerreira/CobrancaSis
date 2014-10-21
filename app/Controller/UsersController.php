@@ -15,7 +15,7 @@ class UsersController extends AppController {
         $totalDebtsToday = $this->Debt->find('count', array(
             'conditions' => array(
             'Debt.fechado' => 0,
-            'Debt.dt_cobranca' =>  date('Y-m-d')
+            'Debt.dt_cobranca <=' =>  date('Y-m-d')
          )));
         
         $this->set('totalToday',$totalDebtsToday);
@@ -24,32 +24,20 @@ class UsersController extends AppController {
      function statistic() {
        $this->User->recursive = 0;
        $this->set('users', $this->paginate());
-  /*
-      $admins = $this->User-> find("all", array(
-            'conditions' => array(
-            'User.group' => 1
-          )));  
-   
-        $this->set('admins',$admins);
 
-        $usuarios = $this->User-> find("all", array(
-            'conditions' => array(
-            'User.group' => 0
-          )));  
-   
-        $this->set('usuarios',$usuarios);
-*/
         $totalDebtsToday = $this->Debt->find('count', array(
             'conditions' => array(
             'Debt.fechado' => 0,
-            'Debt.dt_cobranca' =>  date('Y-m-d')
+            'Debt.dt_cobranca <= ' =>  date('Y-m-d')
+            
          )));
         
         $this->set('totalToday',$totalDebtsToday);
 
        $totalDebtsOpen = $this->Debt->find('count', array(
             'conditions' => array(
-            'Debt.fechado' => 0
+            'Debt.fechado' => 0,
+            'Debt.dt_cobranca >' =>  date('Y-m-d')
             
          )));
 
@@ -75,11 +63,11 @@ class UsersController extends AppController {
         if ($this->Auth->login()) {
            
             if ($this->Auth->user('group')) { 
-                $this->redirect(array('controller' => 'users', 'action' => 'index'));   
+                $this->redirect(array('controller' => 'users', 'action' => 'statistic'));   
                 
             }
             else {
-               $this->redirect(array('controller' => 'debts', 'action' => 'index')); 
+               $this->redirect(array('controller' => 'users', 'action' => 'index')); 
 
             }
         

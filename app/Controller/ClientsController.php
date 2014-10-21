@@ -19,8 +19,15 @@ class ClientsController extends AppController {
         if ($this->request->is('post')) {            
           
             if ($this->Client->save($this->request->data)) {
-                $this->Session->setFlash('Cadastro efetuado com sucesso!');
-                //$this->redirect(array('action' => 'index'));
+                $this->Session->setFlash('<div class="alert alert-info">
+                               Cliente cadastrado com sucesso! 
+                            </div>');
+                if($this->Auth->user('group') == 0){
+                 $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+                }else{
+                 $this->redirect(array('controller'=>'users','action'=>'statistic'));
+                 }
             }
       
 
@@ -51,16 +58,30 @@ class ClientsController extends AppController {
            $this->request->data = $this->Client->read();
         } else {
                  if ($this->Client->save($this->request->data)) {
-                    $this->Session->setFlash('Cliente Alterado com Sucesso!');
-                    $this->redirect(array('action' => 'index'));
+                    $this->Session->setFlash('<div class="alert alert-warning">
+                               Cliente editado com sucesso! 
+                            </div>');
+                   if($this->Auth->user('group') == 0){
+                      $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+                    }else{
+                       $this->redirect(array('controller'=>'users','action'=>'statistic'));
+                      }
                   }
              }
      }
 
       function delete($id) {      
         if ($this->Client->delete($id,true)) {
-          $this->Session->setFlash('Cliente Deletado.');
-          $this->redirect(array('action' => 'index'));
+          $this->Session->setFlash('<div class="alert alert-danger">
+                               Cliente deletado com sucesso! 
+                            </div>');
+          if($this->Auth->user('group') == 0){
+             $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+          }else{
+            $this->redirect(array('controller'=>'users','action'=>'statistic'));
+          }
         }
       }
 
@@ -70,7 +91,6 @@ class ClientsController extends AppController {
      }
 
      function search(){
-
 
      }
 

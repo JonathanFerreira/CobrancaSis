@@ -13,9 +13,9 @@
               <div class="table-responsive">
                   <table class="table">
                         <thead>
-                            <tr>
-                                <th>Id</th>
+                            <tr>                                
                                 <th>Nome</th>
+                                <th>CPF</th>
                                 <th>email</th>
                                 <th>Opcoes</th>
                             </tr>
@@ -29,17 +29,18 @@
                             <tr class= <?php echo ($cont%2 == 0)? "success" : "info"; ?> >
                        
 
-                                <td>
-                                    <?php 
-                                       echo $cliente['Client']['id']; 
-                                     ?>
-                               </td>
+                            
                                 <td> 
                                     <?php
                                        echo $this->Html->link(
                                             $cliente['Client']['name'], array(
                                               'action' => 'view', 
                                               $cliente['Client']['id']));
+                                     ?>
+                                </td>
+                                <td> 
+                                    <?php
+                                       echo $cliente['Client']['CPF'];
                                      ?>
                                 </td>
                                 <td>

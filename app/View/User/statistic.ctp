@@ -1,4 +1,4 @@
-<h1 text-align = "center">Estatísticas</h1>
+<h1 class="center">Estatísticas</h1>
 
 <div class="col-lg-3 col-md-6">
     <div class="panel panel-red">
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </div>
-        <a href="#">
+        <a href="../debts/list_today">
             <div class="panel-footer">
                 <span class="pull-left">Detalhes</span>
                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <a href="#">
+        <a href="../debts/list_open">
             <div class="panel-footer">
                 <span class="pull-left">Detalhes</span>
                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <a href="#">
+        <a href="../debts/list_close">
             <div class="panel-footer">
                 <span class="pull-left">Detalhes</span>
                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

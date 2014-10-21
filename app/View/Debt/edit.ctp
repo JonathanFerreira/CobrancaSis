@@ -80,7 +80,7 @@ $(function() {
         'placeholder'=>'Vencimento',
         'type'=>'text',
         'id'=>'calendario1',
-        'readonly'=>'s'
+        'readonly'=>'true'
 
          ));
 

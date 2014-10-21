@@ -10,7 +10,7 @@
                   <table class="table">
                         <thead>
                             <tr>
-                                <th>Id</th>
+                                <th>Informações</th>
                                 <th>Compra</th>
                                 <th>Vencimento</th>
                                 <th>Cobrança</th>
@@ -30,24 +30,30 @@
                                 <td>
                                     <?php
                                        echo $this->Html->link(
-                                            $aberta['Debt']['id'], array(
+                                            'Detalhes', array(
                                               'action' => 'view', 
                                               $aberta['Debt']['id']));
                                      ?>
                                </td>
                                 <td> 
                                     <?php
-                                       echo $aberta['Debt']['dt_compra'];
+                                     echo $data = implode('/',array_reverse(
+                                        explode('-',$aberta['Debt']
+                                          ['dt_compra'])));
                                      ?>
                                 </td>
                                 <td>
                                     <?php  
-                                    echo $aberta['Debt']['dt_vencimento']; 
+                                   echo $data = implode('/',array_reverse(
+                                        explode('-',$aberta['Debt']
+                                          ['dt_vencimento'])));
                                      ?>
                                 </td>
                                 <td> 
                                     <?php  
-                                       echo $aberta['Debt']['dt_cobranca']; 
+                                      echo $data = implode('/',array_reverse(
+                                        explode('-',$aberta['Debt']
+                                          ['dt_cobranca'])));
                                     ?>  
 
                                 </td>
@@ -129,14 +135,13 @@
                     <h4 id="myModalLabel" class="modal-title">Atenção</h4>
                 </div>
                 <div class="modal-body">
-                    Excluir essa cobrança resultará na exclusão de todos os
-                    eventos também. Tem certeza disso?
+                     Tem certeza que deseja encerrar essa cobranca?
                 </div>
                 <div class="modal-footer">
                     <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
-                     <a class="btn btn-danger"  
+                     <a class="btn btn-success"  
                          href="<?php echo '../debts/pay/'.
-                          $aberta['Debt']['id']?>"> Excluir
+                          $aberta['Debt']['id']?>"> Encerrar
                       </a> 
                 </div>
             </div>

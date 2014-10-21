@@ -1,4 +1,4 @@
-<h1>Ta na index</h1>
+<h1 class="center">Estatísticas</h1>
 
 <div class="col-lg-3 col-md-6">
                     <div class="panel panel-primary">

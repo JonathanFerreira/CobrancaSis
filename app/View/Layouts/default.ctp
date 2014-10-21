@@ -47,6 +47,10 @@
 </head>
 
 <body>
+  <?php 
+                $url = Router::url('/', true); 
+                $tipo = ($eAdmin == 0)? 'users':'users/statistic' ;
+   ?>
 
     <div id="wrapper">
      <?php echo $this->Session->flash(); ?>
@@ -60,7 +64,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand color" href="index.html">CobrancaSis</a>
+                <a class="navbar-brand color" href="<?php echo $url.$tipo?>">CobrancaSis</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -71,17 +75,17 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-fw color"></i> <?php echo ($userName);?>   <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li>
-                <?php echo $this->Html->link(__('Sair'), array(
-                  'controller' => 'users', 
-                  'action' => 'logout'
-                  ));?>
-                 <i class="fa fa-power-off" style='float: right !important;margin-top: -20px;'></i>
-
-                <?php echo $this->Html->link(__('Perfil'), array(
-                  'controller' => 'users','action' => 'edit',$idLogado 
+                 <?php echo $this->Html->link(__('Perfil'), array(
+                  'controller' => 'users','action' => 'view',$idLogado 
 
                   ));?>
-                   <i class="fa fa-cogs" style='float: right !important;margin-top: -20px;'></i>      
+                   <i class="fa fa-cogs" style='float: right !important;margin-top: -20px;'></i>  
+
+                   <?php echo $this->Html->link(__('Sair'), array(
+                     'controller' => 'users', 
+                     'action' => 'logout'
+                     ));?>
+                     <i class="fa fa-power-off" style='float: right !important;margin-top: -20px;'></i>    
              
                 </li>
               </ul>
@@ -131,6 +135,13 @@
                              <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cobranças<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
                                 <li>
+                                     <?php
+                                        echo $this->Html->link(__('Buscar Por data'), array(
+                                       'controller' => 'debts', 'action' => 
+                                       'search_debt'));
+                                       ?>
+                                </li>
+                                <li>
                                  <li>
                                     <a>Listar <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
@@ -143,7 +154,7 @@
                                         </li>
                                         <li>
                                              <?php
-                                                echo $this->Html->link(__('Fechadas'), 
+                                                echo $this->Html->link(__('Encerradas'), 
                                                 array( 'controller' => 'debts', 'action' =>
                                                        'list_close'));
                                                ?>
@@ -156,26 +167,32 @@
                               
                             </ul>
                         </li>
-
-                        
-                        <?php else: ?>
-                            <li>
-                               <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cobranca<span class="fa arrow"></span></a>
-                               <ul class="nav nav-second-level">
-                                  <li>
-                                      <?php
-                                         echo $this->Html->link(__('Cadastrar'), array(
-                                        'controller' => 'debts', 'action' => 'add'));
-                                        ?>
-                                  </li>
-                                  <li>
-                                     <?php
-                                        echo $this->Html->link(__('Listar'), array(
-                                       'controller' => 'debts', 'action' => 'list_debt_open'));
-                                      ?>
-                                  </li>
-                               </ul>
-                           </li>
+                        <?php else: ?>   
+                           <li>
+                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cobranças<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level">
+                                <li>
+                                 <li>
+                                    <a>Listar <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                             <?php
+                                                echo $this->Html->link(__('Abertas'), array(
+                                                      'controller' => 'debts', 'action' =>
+                                                       'list_open'));
+                                               ?>
+                                        </li>
+                                       
+                                        
+                                     </ul>
+                                     <!-- /.nav-third-level -->
+                                 </li>
+                                </li>
+                              
+                            </ul>
+                        </li>               
+                     
+                           
 
                          <?php endif; ?>
                          <li>

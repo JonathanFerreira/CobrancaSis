@@ -12,7 +12,7 @@
                   <table class="table">
                         <thead>
                             <tr>
-                                <th>Id</th>
+                                <th>Informações</th>
                                 <th>Compra</th>
                                 <th>Vencimento</th>
                                 <th>Cobrança</th>
@@ -31,24 +31,30 @@
                                 <td>
                                     <?php
                                        echo $this->Html->link(
-                                            $fechada['Debt']['id'], array(
+                                            'Detalhes', array(
                                               'action' => 'view', 
                                               $fechada['Debt']['id']));
                                      ?>
                                </td>
                                 <td> 
                                     <?php
-                                       echo $fechada['Debt']['dt_compra'];
+                                       echo $data = implode('/',array_reverse(
+                                        explode('-',$fechada['Debt']
+                                          ['dt_compra'])));
                                      ?>
                                 </td>
                                 <td>
                                     <?php  
-                                    echo $fechada['Debt']['dt_vencimento']; 
+                                    echo $data = implode('/',array_reverse(
+                                      explode('-',$fechada['Debt']
+                                        ['dt_vencimento'])));
                                      ?>
                                 </td>
                                 <td> 
                                     <?php  
-                                       echo $fechada['Debt']['tipo_cobranca']; 
+                                       echo $data = implode('/',array_reverse(
+                                        explode('-',$fechada['Debt']
+                                          ['dt_cobranca']))); 
                                     ?>  
 
                                 </td>
