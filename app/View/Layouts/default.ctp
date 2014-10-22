@@ -138,7 +138,14 @@
                                      <?php
                                         echo $this->Html->link(__('Buscar Por data'), array(
                                        'controller' => 'debts', 'action' => 
-                                       'search_debt'));
+                                       'search_debt_only_date'));
+                                       ?>
+                                </li>
+                                 <li>
+                                     <?php
+                                        echo $this->Html->link(__('Buscar Entre datas'), array(
+                                       'controller' => 'debts', 'action' => 
+                                       'search_debt_between_date'));
                                        ?>
                                 </li>
                                 <li>
@@ -213,10 +220,19 @@
                                 </li>
                                 <li>
                                      <?php
-                                        echo $this->Html->link(__('Listar'), array(
+                                        echo $this->Html->link(__('Listar Todos'), array(
                                        'controller' => 'clients', 'action' => 'list_clients'));
                                       ?>
                                 </li>
+
+
+                                <li>
+                                     <?php
+                                        echo $this->Html->link(__('Listar Inadimplentes'), array(
+                                       'controller' => 'clients', 'action' => 'list_inadimplentes'));
+                                      ?>
+                                </li>
+                                
                             </ul>
                         </li>       
                         

@@ -5,6 +5,15 @@
 class Client extends AppModel {
     public $name = 'Client';
 
+    public $actsAs = array('Containable');
+
+    public $hasMany = array(
+     'Debts' => array(
+     'className' => 'Debts',
+     'foreignKey' => 'client_id',
+     'dependent'=> true
+    ));
+
     public $validate = array(
         'name' => array(
             'rule' => 'notEmpty',
@@ -28,12 +37,7 @@ class Client extends AppModel {
          )
     );
 
-    public $hasMany = array(
-    'Debts' => array(
-    'className' => 'Debts',
-    'foreignKey' => 'client_id',
-    'dependent'=> true
-    ));
+  
 
     
 

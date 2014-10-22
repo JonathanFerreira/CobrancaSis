@@ -3,12 +3,17 @@
 	
 	<div class="panel panel-green ">
 	    <div class="panel-heading ">
-	        Cobrança
+	        Cobrança do cliente: <?php echo $cliente['Client']['name'];?>
 	    </div>
 	    <div class="panel-body">
-	        <p> 
-	           Cadastrada por:  <?php echo $cobranca['Debt']['name'] ?> 
-	        </p>
+          
+           <p>
+             Telfone: <?php echo $cliente['Client']['tell'];?>
+          </p>
+	      
+          <p>
+             Email: <?php echo $cliente['Client']['email'];?>
+          </p>
 
 	        <p>
 	           Compra:  <?php echo $data = implode('/',array_reverse(explode(
@@ -28,6 +33,11 @@
 	         <p>
 	           Valor:   <?php echo $cobranca['Debt']['valor'] ?>
 	        </p>  
+
+          <p> 
+             Cadastrada por:  <?php echo $cobranca['Debt']['name'] ?> 
+          </p>
+
 	       
 
 	    </div>
@@ -237,7 +247,6 @@
 
 
 
-
-
+<?php debug($cliente);?>
 
 

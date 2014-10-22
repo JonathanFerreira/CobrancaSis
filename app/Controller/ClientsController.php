@@ -90,6 +90,29 @@ class ClientsController extends AppController {
       $this->set('clientes',$clientes);
      }
 
+     function list_inadimplentes(){
+        $inadimplentes = $this->Client->find('all', array(
+           'joins' => array(
+            array(
+                'table' => 'debts',
+                'alias' => 'DebtJoin',
+                'type' => 'INNER',
+                'conditions' => array(
+                    'DebtJoin.client_id = Client.id',
+                    'DebtJoin.fechado = 0'
+                    
+                )
+            )
+         ),
+          
+          'fields' => array('DebtJoin.*', 'Client.*'),
+          'group' => 'Client.id'
+          
+        ));
+
+        $this->set('inadimplentes',$inadimplentes);
+     }
+
      function search(){
 
      }

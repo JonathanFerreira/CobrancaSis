@@ -27923,3 +27923,603 @@ Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
 Stack Trace:
 #0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-10-22 16:20:32 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php, line 150]
+2014-10-22 16:20:32 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /CobrancaSis/debts/list_today
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 150)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-22 16:32:46 Error: Fatal Error (4): syntax error, unexpected '$dFinal' (T_VARIABLE), expecting ')' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php, line 150]
+2014-10-22 16:32:46 Error: [FatalErrorException] syntax error, unexpected '$dFinal' (T_VARIABLE), expecting ')'
+Request URL: /CobrancaSis/debts/list_today
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 150)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-22 16:35:16 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php, line 150]
+2014-10-22 16:35:16 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /CobrancaSis/debts/list_today
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 150)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-22 16:35:17 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php, line 150]
+2014-10-22 16:35:17 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /CobrancaSis/debts/list_today
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 150)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 150, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-22 16:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:56:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 16:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:04:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:04:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:04:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:04:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:04:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:04:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 17:12:42 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php, line 50]
+2014-10-22 17:12:42 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /CobrancaSis/debts/view/6
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/webgoal2/...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/webgoal2/...', 50, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/webgoal2/...', 50, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-22 18:09:33 Error: Fatal Error (4): syntax error, unexpected '$inadimplentes' (T_VARIABLE) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php, line 112]
+2014-10-22 18:09:33 Error: [FatalErrorException] syntax error, unexpected '$inadimplentes' (T_VARIABLE)
+Request URL: /CobrancaSis/clients/list_clients
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 112)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 112, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 112, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-22 18:14:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Clientid' in 'group statement'
+Request URL: /CobrancaSis/clients/list_inadimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(111): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_inadimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:15:39 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/View/Client/list_inadimplentes.ctp, line 3]
+2014-10-22 18:15:39 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /CobrancaSis/clients/list_inadimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 3, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 3, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-22 18:33:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:45:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 1)  WHERE ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:45:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 1)  WHERE ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:45:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 1)  WHERE ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:45:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 1)  WHERE ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:47:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:47:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:47:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:47:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:54:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:54:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:54:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 18:54:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`DebtJoin`.`client_id` = `Client`.`id` AND `DebtJoin`.`fechado` = 0)  WHERE 1 = ' at line 1
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `DebtJoi...', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `DebtJoi...', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `DebtJoi...', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Client), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/ClientsController.php(135): Model->find('all', Array)
+#6 [internal function]: ClientsController->list_adimplentes()
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#8 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-22 19:02:50 Error: [MissingActionException] Action ClientController::list_adimplentes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientController',
+  'action' => 'list_adimplentes',
+)
+Request URL: /CobrancaSis/clients/list_adimplentes
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 22:10:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 22:10:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 22:10:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 22:10:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 22:10:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 22:10:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

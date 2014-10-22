@@ -3,7 +3,7 @@ class DebtsController extends AppController {
     public $helpers = array ('Html','Form');
     public $name = 'Debt';
     public $components = array('Session');
-    public $uses = array('Debt','User','Event');
+    public $uses = array('Debt','User','Event','Client');
    
     
     function index(){
@@ -43,7 +43,13 @@ class DebtsController extends AppController {
 
     public function view($id) {
         $this->Debt->id = $id;
-        $this->set('cobranca', $this->Debt->read());   
+        $cobranca = $this->Debt->find('first',array(
+          'conditions' => array(
+            'Debt.id' => $id)));
+
+        $cliente = $this->Client->find('first',array(
+          'conditions' => array(
+            'Client.id' => $cobranca['Debt']['client_id']))) ;
 
         $eventos = $this->Event-> find("all", array(
         'conditions' => array(
@@ -52,7 +58,9 @@ class DebtsController extends AppController {
           ),
         'order'=>array('Event.dt_evento asc')
         )); 
+    $this->set('cobranca',$cobranca);  
     $this->set('eventos',$eventos);
+    $this->set('cliente',$cliente);
 
     }
 
@@ -141,25 +149,80 @@ class DebtsController extends AppController {
        $cobrancasToday = $this->Debt-> find('all', array(
             'conditions' => array(
             'Debt.fechado' => 0,
-            'Debt.dt_cobranca <= ' =>  date('Y-m-d')   
-         )));
+            'Debt.dt_cobranca <= ' =>  date('Y-m-d') 
 
-
+         )));    
+        /* $cobrancasTeste = $this->Debt->find('all', array(
+            'conditions' => array(
+            'Debt.dt_cobranca >=' =>  $dInicial,
+            'Debt.dt_cobranca <= ' => $dFinal,
+            'Debt.fechado' => 0
+        )));*/
       
         $this->set('cobrancasToday',$cobrancasToday);
+        
      }
      
 
-     function search_debt(){
+     function search_debt_only_date(){
 
      }
+
+    function search_debt_between_date(){
+
+     }
+
+    function result_between_date(){
+          $dInicial = implode('-',array_reverse(explode(
+              '/',$this->request->data['Debt']['dt_cobranca'])));
+
+          $dFinal = implode('-',array_reverse(explode(
+              '/',$this->request->data['Debt']['dt_vencimento'])));
+        
+        
+          $resultados = $this->Debt->find('all', 
+                array(
+                      'conditions' => array(
+                      'Debt.dt_cobranca >= ' => $dInicial,
+                      'Debt.dt_cobranca <= ' => $dFinal                     
+                      ),
+                      'order' =>array( 'Debt.fechado asc' )
+                    ));    
+          $totalReceber = 0;
+          $totalArrecadado = 0;    
+ 
+          foreach ($resultados as $key => $resultado) {
+             if($resultado['Debt']['fechado'] == 0){
+              $totalReceber += $resultado['Debt']['valor'];
+             }else{
+                    $totalArrecadado += $resultado['Debt']['valor'];
+
+                }
+          }
+        
+
+          if(!$resultados){
+             $this->Session->setFlash('<div class="alert alert-warning">
+                               Não existem cobranças entre essas datas.
+                            </div>');
+             $this->redirect(array('action'=>'search_debt_between_date'));
+          }
+
+          $this->set('resultados',$resultados);
+          $this->set('totalReceber',$totalReceber);
+          $this->set('totalArrecadado',$totalArrecadado);
+
+          
+
+
+     } 
 
      
 
 
 
 
-     function result(){
+     function result_only_date(){
           $dataBusca = implode('-',array_reverse(explode(
               '/',$this->request->data['Debt']['dt_cobranca'])));
         
@@ -184,7 +247,9 @@ class DebtsController extends AppController {
         
 
           if(!$resultados){
-             $this->Session->setFlash('Não existem cobranças nessa data.');
+             $this->Session->setFlash('<div class="alert alert-warning">
+                               Não existem cobranças entre essas datas.
+                            </div>');
              $this->redirect(array('action'=>'search_debt'));
           }
 
@@ -197,14 +262,7 @@ class DebtsController extends AppController {
 
      } 
 
-     function formataData($dataFormatadas){
-       return implode('-',array_reverse(explode(
-              '/',$dataFormatada)));
-     }
-
-
-
-  
+    
 
 }
 

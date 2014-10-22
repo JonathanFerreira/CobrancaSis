@@ -4,6 +4,18 @@
 
 class Debt extends AppModel {
     public $name = 'Debt';
+    
+    public $actsAs = array('Containable');
+   
+    public $hasMany = array(
+     'Events' => array(
+     'className' => 'Events',
+     'foreignKey' => 'debt_id',
+     'dependent'=> true,
+    ));
+
+    
+    public $belongsTo = array('Client');
 
     public $validate = array(
         'dt_compra' => array(
@@ -28,12 +40,7 @@ class Debt extends AppModel {
          )
     );
 
-    public $hasMany = array(
-    'Events' => array(
-    'className' => 'Events',
-    'foreignKey' => 'debt_id',
-    'dependent'=> true,
-    ));
+
 
 
     

@@ -1,4 +1,3 @@
-
 <?php  
 	$buscar = array(
 	    'label' => 'Buscar',
@@ -22,6 +21,22 @@ $(function() {
 });
 </script>
 
+<script>
+
+$(function() {
+
+    $("#calendario1").datepicker({
+        
+        dateFormat: 'dd/mm/yy',
+        dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
+        dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+        dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+        monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+        monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
+    });
+});
+</script>
+
 
 
 
@@ -31,17 +46,26 @@ $(function() {
 
 
 	<?php
-	echo $this->Form->create('Debt',array('action'=>'result'));
+	echo $this->Form->create('Debt',array('action'=>'result_between_date'));
 
 
 	echo $this->Form->input('dt_cobranca',array(
         'class' => 'form-control form-group',
-        'placeholder'=>'Data da busca',
+        'placeholder'=>'Data da inicial',
         'type'=>'text',
         'id'=>'calendario',
         'readonly'=>'true'
          ));
-	?>
+	
+
+    echo $this->Form->input('dt_vencimento',array(
+        'class' => 'form-control form-group',
+        'placeholder'=>'Data da final',
+        'type'=>'text',
+        'id'=>'calendario1',
+        'readonly'=>'true'
+         ));
+    ?>
 	 
 	<?php echo $this->Form->end($buscar);?>
 

@@ -203,4 +203,3 @@
     <!-- /.modal -->
 </div>
 
-<?php debug($totalReceber);?>
