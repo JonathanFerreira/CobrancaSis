@@ -13,33 +13,50 @@ class EventsController extends AppController {
     }
 
 
-    public function add($id){
+    public function add($id = null){
+
       if($this->request->is('post')){
+
         $this->request->data['Event']['name'] = $this->Auth->user('name');
-        $this->request->data['Event']['debt_id'] = $id;        
-       
-         if ($this->Event->save($this->request->data)) {
-               $this->Session->setFlash(' <div class="alert alert-info">
+        $this->request->data['Event']['debt_id'] = $id;
+        
+        $novaData = implode('-',array_reverse(explode('/',$this->request->data['Event']['dt_evento'])));
+                
+
+
+         if ($this->Event->save($this->request->data)) { 
+
+              $this->Debt->id = $id;           
+              $this->request->data = $this->Debt->read();         
+           
+              $this->Debt->updateAll(
+                array('Debt.fechado' => '2'),
+                array('Debt.id' => $id)
+               );          
+
+              $this->Session->setFlash(' <div class="alert alert-info">
                                Evento cadastrada com sucesso! 
                             </div>');
-            
-            if($this->Auth->user('group') == 0){
-             $this->redirect(array('controller'=>'users','action'=>'index')) ;   
 
-             }else{
-                $this->redirect(array('controller'=>'users','action'=>'statistic'));
-               }
+            
+              if($this->Auth->user('group') == 0){
+               $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+               }else{
+                  $this->redirect(array('controller'=>'users','action'=>'statistic'));
+                 }
 
           }else{
-            $this->Session->setFlash('Houve um erro ao cadastrar o evento!');
-            if($this->Auth->user('group') == 0){
-              $this->redirect(array('controller'=>'users','action'=>'index')) ;   
 
-             }else{
-                $this->redirect(array('controller'=>'users','action'=>'statistic'));
-               }
+              $this->Session->setFlash('Houve um erro ao cadastrar o evento!');
+              if($this->Auth->user('group') == 0){
+                $this->redirect(array('controller'=>'users','action'=>'index')) ;   
 
-          }
+               }else{
+                  $this->redirect(array('controller'=>'users','action'=>'statistic'));
+                 }
+
+            }
       }
     }
 
@@ -59,7 +76,18 @@ class EventsController extends AppController {
                     $this->Session->setFlash('<div class="alert alert-warning">
                                Evento editado com sucesso! 
                             </div>');
-                   //$this->redirect(array('action' => 'index'));
+                    if($this->Auth->user('group') == 0){
+                       $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+                     }else{
+                        $this->redirect(array('controller'=>'users','action'=>'statistic'));
+                      }
+                  
+                  }else{
+                    $this->Session->setFlash('<div class="alert alert-danger">
+                               Houve um erro! 
+                            </div>');
+
                   }
              }
     }
@@ -69,7 +97,18 @@ class EventsController extends AppController {
          $this->Session->setFlash('<div class="alert alert-danger">
                                Evento deletado com sucesso! 
                             </div>');
-         $this->redirect(array('controller'=>'users','action' => 'index'));
+          if($this->Auth->user('group') == 0){
+                       $this->redirect(array('controller'=>'users','action'=>'index')) ;   
+
+           }else{
+               $this->redirect(array('controller'=>'users','action'=>'statistic'));
+             }
+         
+      }else{
+         $this->Session->setFlash('<div class="alert alert-danger">
+                              Houve um erro! 
+                            </div>');
+
       }
     }
 

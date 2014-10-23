@@ -31,7 +31,7 @@ class AppSchema extends CakeSchema {
 		'dt_cobranca' => array('type' => 'date', 'null' => true, 'default' => null),
 		'valor' => array('type' => 'float', 'null' => false, 'default' => null),
 		'tipo_cobranca' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 20, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
-		'fechado' => array('type' => 'boolean', 'null' => true, 'default' => null),
+		'fechado' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 1, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'name' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
@@ -43,12 +43,12 @@ class AppSchema extends CakeSchema {
 
 	public $events = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
-		'debt_id' => array('type' => 'integer', 'null' => false, 'default' => null),
+		'debt_id' => array('type' => 'integer', 'null' => true, 'default' => null),
 		'name' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
-		'dt_evento' => array('type' => 'date', 'null' => false, 'default' => null),
-		'motivo' => array('type' => 'text', 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '
+		'dt_evento' => array('type' => 'date', 'null' => true, 'default' => null),
+		'motivo' => array('type' => 'text', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'comment' => '
 ', 'charset' => 'utf8'),
-		'contato' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'contato' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'observacao' => array('type' => 'text', 'null' => true, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 45, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),

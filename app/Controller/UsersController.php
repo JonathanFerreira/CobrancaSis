@@ -27,29 +27,35 @@ class UsersController extends AppController {
 
         $totalDebtsToday = $this->Debt->find('count', array(
             'conditions' => array(
-            'Debt.fechado' => 0,
+            'Debt.fechado' => '0',
             'Debt.dt_cobranca <= ' =>  date('Y-m-d')
             
-         )));
+         )));       
         
-        $this->set('totalToday',$totalDebtsToday);
 
        $totalDebtsOpen = $this->Debt->find('count', array(
             'conditions' => array(
-            'Debt.fechado' => 0,
+            'Debt.fechado' => '0',
             'Debt.dt_cobranca >' =>  date('Y-m-d')
             
          )));
 
-        $this->set('totalOpen',$totalDebtsOpen);
-
-         $totalDebtsClose = $this->Debt->find('count', array(
+        $totalDebtsCollect = $this->Debt->find('count', array(
             'conditions' => array(
-            'Debt.fechado' => 1
+            'Debt.fechado' => '2'
             
          )));
 
-        $this->set('totalClose',$totalDebtsClose);
+         $totalDebtsClose = $this->Debt->find('count', array(
+            'conditions' => array(
+            'Debt.fechado' => '1'
+            
+         )));
+         
+         $this->set('totalToday',$totalDebtsToday);
+         $this->set('totalOpen',$totalDebtsOpen);
+         $this->set('totalCollect',$totalDebtsCollect);
+         $this->set('totalClose',$totalDebtsClose);
     }
 
     public function beforeFilter() {
@@ -91,8 +97,10 @@ class UsersController extends AppController {
             $this->request->data ['User']['group'] = 1;           
 
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash('Cadastro efetuado com sucesso!');
-                //$this->redirect(array('action' => 'index'));
+                $this->Session->setFlash('<div class="alert alert-info">
+                               Administrador cadastrado com sucesso! 
+                            </div>');
+                $this->redirect(array('action' => 'statistic'));
             }
       
 
@@ -105,13 +113,15 @@ class UsersController extends AppController {
             $this->request->data ['User']['group'] = 0;           
 
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash('Cadastro efetuado com sucesso!');
-                //$this->redirect(array('action' => 'index'));
+                $this->Session->setFlash('<div class="alert alert-info">
+                               Usuario cadastrado com sucesso! 
+                            </div>');
+                $this->redirect(array('action' => 'statistic'));
             }
       
 
         }
-    }
+    } 
 
 
 
@@ -128,16 +138,20 @@ class UsersController extends AppController {
            $this->request->data = $this->User->read();
         } else {
                  if ($this->User->save($this->request->data)) {
-                    $this->Session->setFlash('Usuario Alterado com Sucesso!');
-                    $this->redirect(array('action' => 'index'));
+                    $this->Session->setFlash('<div class="alert alert-warning">
+                               Cadastro editado com sucesso! 
+                            </div>');
+                    $this->redirect(array('action' => 'statistic'));
                   }
              }
      }
 
      function delete($id) {     
         if ($this->User->delete($id)) {
-           $this->Session->setFlash('Cobrança Deletada!');
-           $this->redirect(array('action' => 'index'));
+           $this->Session->setFlash('<div class="alert alert-danger">
+                               Cadastro deletado com sucesso! 
+                            </div>');
+           $this->redirect(array('action' => 'statistic'));
         }
      }
 

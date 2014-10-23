@@ -166,6 +166,13 @@
                                                        'list_close'));
                                                ?>
                                         </li>
+                                         <li>
+                                             <?php
+                                                echo $this->Html->link(__('Cobradas'), 
+                                                array( 'controller' => 'debts', 'action' =>
+                                                       'list_collect'));
+                                               ?>
+                                        </li>
                                         
                                      </ul>
                                      <!-- /.nav-third-level -->

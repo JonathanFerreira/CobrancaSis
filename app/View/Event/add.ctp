@@ -37,7 +37,7 @@ $(function() {
 
     echo $this->Form->input('dt_evento',array(
         'class' => 'form-control form-group',
-        'placeholder'=>'Data Evento',
+        'placeholder'=>'Data do próximo contato',
         'type'=>'text',
         'id'=>'calendario'
          ));
