@@ -103,6 +103,12 @@ $(function() {
         'placeholder'=>'Tipo cobrança'
          ));
 
+    echo $this->Form->input('observacao',array(
+        'class' => 'form-control form-group',
+        'type' => 'textarea',
+        'placeholder'=>'Observação'
+         ));
+
     
     ?>
      

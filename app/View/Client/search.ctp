@@ -4,6 +4,7 @@
 	    'label' => 'Buscar',
 	    'class' => 'btn btn-primary'
 	);
+
 ?>
 
 

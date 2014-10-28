@@ -27,7 +27,7 @@ class UsersController extends AppController {
 
         $totalDebtsToday = $this->Debt->find('count', array(
             'conditions' => array(
-            'Debt.fechado' => '0',
+            'Debt.fechado' => '1',
             'Debt.dt_cobranca <= ' =>  date('Y-m-d')
             
          )));       
@@ -35,7 +35,7 @@ class UsersController extends AppController {
 
        $totalDebtsOpen = $this->Debt->find('count', array(
             'conditions' => array(
-            'Debt.fechado' => '0',
+            'Debt.fechado' => '1',
             'Debt.dt_cobranca >' =>  date('Y-m-d')
             
          )));
@@ -48,7 +48,7 @@ class UsersController extends AppController {
 
          $totalDebtsClose = $this->Debt->find('count', array(
             'conditions' => array(
-            'Debt.fechado' => '1'
+            'Debt.fechado' => '0'
             
          )));
          

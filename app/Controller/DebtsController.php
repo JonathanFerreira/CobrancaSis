@@ -18,7 +18,7 @@ class DebtsController extends AppController {
       if($this->request->is('post')){
         $this->request->data['Debt']['name'] = $this->Auth->user('name');
         $this->request->data['Debt']['client_id'] = $id;
-        $this->request->data['Debt']['fechado'] = '0';
+        $this->request->data['Debt']['fechado'] = '1';
        
          if ($this->Debt->save($this->request->data)) {
                 $this->Session->setFlash('<div class="alert alert-info">
@@ -110,7 +110,7 @@ class DebtsController extends AppController {
           
            
            $this->Debt->updateAll(
-              array('Debt.fechado' => '1'),
+              array('Debt.fechado' => '0'),
               array('Debt.id' => $id)
           ); 
 
@@ -132,7 +132,7 @@ class DebtsController extends AppController {
     function list_open(){
       $abertas = $this->Debt-> find('all', array(
             'conditions' => array(
-            'Debt.fechado' => '0',
+            'Debt.fechado' => '1',
             'Debt.dt_cobranca >' => date('Y-m-d')
           ))); 
         $this->set('abertas',$abertas);
@@ -141,7 +141,7 @@ class DebtsController extends AppController {
       function list_close(){
       $fechadas = $this->Debt-> find('all', array(
             'conditions' => array(
-            'Debt.fechado' => '1'
+            'Debt.fechado' => '0'
           ))); 
       $this->set('fechadas',$fechadas);
      }
@@ -150,7 +150,7 @@ class DebtsController extends AppController {
        
        $cobrancasToday = $this->Debt-> find('all', array(
             'conditions' => array(
-            'Debt.fechado' => '0',
+            'Debt.fechado' => '1',
             'Debt.dt_cobranca <= ' =>  date('Y-m-d') 
 
          )));    
@@ -202,7 +202,7 @@ class DebtsController extends AppController {
           $totalArrecadado = 0;    
  
           foreach ($resultados as $key => $resultado) {
-             if($resultado['Debt']['fechado'] == '0'){
+             if($resultado['Debt']['fechado'] == '1'){
               $totalReceber += $resultado['Debt']['valor'];
              }else{
                     $totalArrecadado += $resultado['Debt']['valor'];
@@ -247,7 +247,7 @@ class DebtsController extends AppController {
           $totalArrecadado = 0;    
  
           foreach ($resultados as $key => $resultado) {
-             if($resultado['Debt']['fechado'] == '0'){
+             if($resultado['Debt']['fechado'] == '1'){
               $totalReceber += $resultado['Debt']['valor'];
              }else{
                     $totalArrecadado += $resultado['Debt']['valor'];

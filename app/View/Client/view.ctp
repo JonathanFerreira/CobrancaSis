@@ -123,10 +123,20 @@
 
                                 </td>
                                 <td>
-                                	<?php echo($cobranca['Debt']['fechado']==0)? "Aberta" : "Encerrada" ?>
+                                	<?php if($cobranca['Debt']['fechado']==1){
+                                     echo "Aberta" ;
+                                         } else{
+                                          if($cobranca['Debt']['fechado']==2){
+                                              echo "Cobrada";
+                                            }else{
+                                              echo "Encerrada";
+                                            }
+                                         }
+                                    
+                                  ?>
                                 </td>
                                 <td> 
-                                 <?php if($cobranca['Debt']['fechado']==0):?>
+                                 <?php if($cobranca['Debt']['fechado']==1):?>
                                      <button data-target="#confirmPay" data-toggle="modal" class="btn btn-success btn-circle">
                                      <i class="fa fa-check"></i>
                                     </button>

@@ -99,7 +99,8 @@ class ClientsController extends AppController {
                 'type' => 'INNER',
                 'conditions' => array(
                     'DebtJoin.client_id = Client.id',
-                    'DebtJoin.fechado = 0'
+                    'DebtJoin.fechado >= 1',
+                    'DebtJoin.fechado <= 2'
                     
                 )
             )

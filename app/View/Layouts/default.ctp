@@ -98,11 +98,11 @@
                     <ul class="nav" id="side-menu">
                         <?php if($eAdmin): ?>
                         <li>
-                             <a href="#"><i class="fa fa-bar-chart-o fa-fw "></i> Usuário<span class="fa arrow"></span></a>
+                             <a href="#"><i class="fa fa-male fa-fw "></i> Usuário<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
-                                <li>
+                                <li>                                   
                                      <?php
-                                        echo $this->Html->link(__('Cadastrar'), array(
+                                        echo $this->Html->link(__(' Cadastrar'), array(
                                        'controller' => 'users', 'action' => 'add_employee'));
                                        ?>
                                 </li>
@@ -132,7 +132,7 @@
                             </ul>
                         </li>
                         <li>
-                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cobranças<span class="fa arrow"></span></a>
+                             <a href="#"><i class="fa fa-exclamation-triangle fa-fw"></i> Cobranças<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
                                 <li>
                                      <?php
@@ -210,7 +210,7 @@
 
                          <?php endif; ?>
                          <li>
-                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Clientes<span class="fa arrow"></span></a>
+                             <a href="#"><i class="fa fa-users fa-fw"></i> Clientes<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
                                 <li>
                                      <?php
@@ -241,19 +241,7 @@
                                 </li>
                                 
                             </ul>
-                        </li>       
-                        
-                        <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i>Configurações<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#">Perfil</a>
-                                </li>
-                                
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        
+                        </li>     
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

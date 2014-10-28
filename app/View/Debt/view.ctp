@@ -46,7 +46,9 @@
 
    <div class="btns-clients">   
      
-     <?php if($cobranca['Debt']['fechado']==0):?>
+    <?php 
+      if($cobranca['Debt']['fechado']==1 ||$cobranca['Debt']['fechado']==2 ):
+     ?>
          <a class="btn btn-primary"  
             href="<?php echo '../../events/add/'.$cobranca['Debt']['id']?>">
             Gerar Evento
