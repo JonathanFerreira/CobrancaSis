@@ -30375,3 +30375,892 @@ Stack Trace:
 #3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-10-28 22:51:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:51:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ef8c08_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 22:59:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_65_ffffff_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 23:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 23:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 23:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 23:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 23:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 23:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-28 23:07:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ef8c08_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 15:16:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 15:16:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 15:16:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 15:16:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 15:16:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 15:16:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 15:39:27 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(124): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:39:29 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(124): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:40:43 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(126): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:40:44 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(126): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:40:45 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(126): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:40:45 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(126): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:40:45 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(126): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:40:45 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(126): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:43:55 Error: Fatal Error (4): syntax error, unexpected ''fields'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php, line 124]
+2014-10-29 15:43:55 Error: [FatalErrorException] syntax error, unexpected ''fields'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webgoal2/...', 124)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webgoal2/...', 124, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webgoal2/...', 124, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 15:44:11 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(128): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:52 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:53 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:53 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:53 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:54 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:54 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:54 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:55 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:55 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:45:55 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(134): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 15:46:18 Error: Fatal Error (64): Cannot redeclare EventsController::$components in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php, line 7]
+2014-10-29 15:46:18 Error: [FatalErrorException] Cannot redeclare EventsController::$components
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/webgoal2/...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/webgoal2/...', 7, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/webgoal2/...', 7, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 15:48:38 Error: Fatal Error (1): Call to undefined method EventsController::Paginator() in [/home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php, line 135]
+2014-10-29 15:48:38 Error: [FatalErrorException] Call to undefined method EventsController::Paginator()
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webgoal2/...', 135)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webgoal2/...', 135, Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webgoal2/...', 135, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 15:49:14 Error: [MissingModelException] Events
+Request URL: /CobrancaSis/events/vencidos
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Events', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/EventsController.php(135): Controller->paginate('Events')
+#2 [internal function]: EventsController->vencidos()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(EventsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 16:24:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Debt.fechado' in 'where clause'
+Request URL: /CobrancaSis/debts/list_open
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Event`....', Array)
+#2 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Event`....', Array, Array)
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Event`....', false)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Model/Model.php(2696): DboSource->read(Object(Event), Array)
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Component/PaginatorComponent.php(197): Model->find('all', Array)
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Event', Array, Array)
+#7 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php(144): Controller->paginate('Event')
+#8 [internal function]: DebtsController->list_open()
+#9 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#10 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-29 16:46:09 Error: [NotFoundException] Not Found
+Request URL: /CobrancaSis/debts/list_today/page:2
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Debt', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php(179): Controller->paginate('Debt')
+#2 [internal function]: DebtsController->list_today()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 16:46:10 Error: [NotFoundException] Not Found
+Request URL: /CobrancaSis/debts/list_today/page:2
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Debt', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php(179): Controller->paginate('Debt')
+#2 [internal function]: DebtsController->list_today()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 16:46:11 Error: [NotFoundException] Not Found
+Request URL: /CobrancaSis/debts/list_today/page:2
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Debt', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php(179): Controller->paginate('Debt')
+#2 [internal function]: DebtsController->list_today()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 16:46:12 Error: [NotFoundException] Not Found
+Request URL: /CobrancaSis/debts/list_today/page:2
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Debt', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php(179): Controller->paginate('Debt')
+#2 [internal function]: DebtsController->list_today()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 16:46:12 Error: [NotFoundException] Not Found
+Request URL: /CobrancaSis/debts/list_today/page:2
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate('Debt', Array, Array)
+#1 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/Controller/DebtsController.php(179): Controller->paginate('Debt')
+#2 [internal function]: DebtsController->list_today()
+#3 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(DebtsController), Array)
+#4 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /home/webgoal2/ProjetoPHP/www/CobrancaSis/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DebtsController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-10-29 17:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:06:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:43:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:56:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:56:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:56:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:56:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:56:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 17:56:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /CobrancaSis/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /home/webgoal2/ProjetoPHP/www/CobrancaSis/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

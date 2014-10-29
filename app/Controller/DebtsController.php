@@ -128,33 +128,57 @@ class DebtsController extends AppController {
               
 
     }
-
+   
     function list_open(){
-      $abertas = $this->Debt-> find('all', array(
-            'conditions' => array(
+
+      $options = array(             
+          'conditions' => array(
             'Debt.fechado' => '1',
-            'Debt.dt_cobranca >' => date('Y-m-d')
-          ))); 
+            'Debt.dt_cobranca >' => date('Y-m-d')),       
+        'limit' => 10
+        );
+
+      $this->paginate = $options;
+   
+          // Roda a consulta, já trazendo os resultados paginados
+          $abertas = $this->paginate('Debt');
+   
+          // Envia os dados pra view
         $this->set('abertas',$abertas);
+    
+     
+        
      }
 
       function list_close(){
-      $fechadas = $this->Debt-> find('all', array(
+        $options = array(             
             'conditions' => array(
             'Debt.fechado' => '0'
-          ))); 
+          ),       
+        'limit' => 10
+        );
+
+        $this->paginate = $options;
+        $fechadas = $this->paginate('Debt');
+     
       $this->set('fechadas',$fechadas);
      }
       
       function list_today(){
-       
-       $cobrancasToday = $this->Debt-> find('all', array(
+        
+        $options = array(             
             'conditions' => array(
             'Debt.fechado' => '1',
             'Debt.dt_cobranca <= ' =>  date('Y-m-d') 
 
-         )));    
-  
+         ),       
+        'limit' => 10
+        );
+         
+         $this->paginate = $options;
+         $cobrancasToday = $this->paginate('Debt');
+       
+      
       
         $this->set('cobrancasToday',$cobrancasToday);
         
@@ -162,11 +186,15 @@ class DebtsController extends AppController {
 
     function list_collect(){
        
-       $cobradas = $this->Debt-> find('all', array(
+        $options = array(             
             'conditions' => array(
-            'Debt.fechado' => '2'           
+            'Debt.fechado' => '2' 
+        ),       
+        'limit' => 10
+        );
 
-         )));    
+         $this->paginate = $options;
+         $cobradas = $this->paginate('Debt');  
   
       
         $this->set('cobradas',$cobradas);
@@ -183,6 +211,7 @@ class DebtsController extends AppController {
      }
 
     function result_between_date(){
+
           $dInicial = implode('-',array_reverse(explode(
               '/',$this->request->data['Debt']['dt_cobranca'])));
 
@@ -202,7 +231,7 @@ class DebtsController extends AppController {
           $totalArrecadado = 0;    
  
           foreach ($resultados as $key => $resultado) {
-             if($resultado['Debt']['fechado'] == '1'){
+             if($resultado['Debt']['fechado'] == '1' || $resultado['Debt']['fechado'] == '2'){
               $totalReceber += $resultado['Debt']['valor'];
              }else{
                     $totalArrecadado += $resultado['Debt']['valor'];
@@ -247,7 +276,7 @@ class DebtsController extends AppController {
           $totalArrecadado = 0;    
  
           foreach ($resultados as $key => $resultado) {
-             if($resultado['Debt']['fechado'] == '1'){
+             if($resultado['Debt']['fechado'] == '1' || $resultado['Debt']['fechado'] == '2' ){
               $totalReceber += $resultado['Debt']['valor'];
              }else{
                     $totalArrecadado += $resultado['Debt']['valor'];

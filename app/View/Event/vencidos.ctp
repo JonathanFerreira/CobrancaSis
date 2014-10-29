@@ -1,27 +1,25 @@
-<h1>Listagem de cobranças encerradas</h1>
-
-
-
-    <div class="row">
+<div class="row">
                <!-- /.col-lg-6 -->
   <div class="col-lg-12">
      <div class="panel panel-default">
-     
+     <div class="panel-heading center">
+        Eventos Vencidos
+     </div>
+       
         <div class="panel-body">
               <div class="table-responsive">
                   <table class="table">
                         <thead>
-                            <tr>
-                                <th>Informações</th>
-                                <th>Compra</th>
-                                <th>Vencimento</th>
-                                <th>Cobrança</th>
-                                <th>Valor</th>
+                            <tr> 
+                                <th>Informações</th>                          
+                                <th>Data Evento</th>                          
+                                <th>Motivo</th> 
+                                <th>Opcões</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
-                              foreach ($fechadas as $key => $fechada): 
+                              foreach ($vencidos as $key => $evento): 
                             ?>
                            
 
@@ -32,41 +30,35 @@
                                     <?php
                                        echo $this->Html->link(
                                             'Detalhes', array(
-                                              'action' => 'view', 
-                                              $fechada['Debt']['id']));
+                                              'controller'=>'debts','action' => 'view', 
+                                              $evento['Event']['debt_id']));
                                      ?>
                                </td>
                                 <td> 
                                     <?php
                                        echo $data = implode('/',array_reverse(
-                                        explode('-',$fechada['Debt']
-                                          ['dt_compra'])));
+                                            explode('-',$evento['Event']
+                                                               ['dt_evento']
+                                            )));
                                      ?>
-                                </td>
-                                <td>
-                                    <?php  
-                                    echo $data = implode('/',array_reverse(
-                                      explode('-',$fechada['Debt']
-                                        ['dt_vencimento'])));
+                                </td>                                
+                                <td>                                     
+                                     <?php  
+                                        echo $evento['Event']['motivo']; 
                                      ?>
-                                </td>
+
+                                </td>                                     
                                 <td> 
-                                    <?php  
-                                       echo $data = implode('/',array_reverse(
-                                        explode('-',$fechada['Debt']
-                                          ['dt_cobranca']))); 
-                                    ?>  
+                                	   <a class="btn btn-warning btn-circle"  
+                                          href="<?php echo '../../events/edit/'.$evento['Event']['id']?>">
+                                          <i class="fa fa-cogs"></i>
+                                      </a> 
 
-                                </td>
-                                 <td> 
-                                  R$ <?php echo number_format(($fechada['Debt']['valor']), 2, ',', '.'); ?>
-                                   
-
-                                </td>
-                                <td>
-                                       <button data-target="#confirmDebt" data-toggle="modal" class="btn btn-danger btn-circle">
+                                       <button data-target="#confirmEvent" data-toggle="modal" class="btn btn-danger btn-circle">
                                        <i class="fa fa-times"></i>
                                       </button>
+                                      
+
                                 </td>
                             </tr>
                             <?php endforeach; ?>
@@ -78,6 +70,7 @@
                         <!-- /.panel-body -->
          </div>
         <!-- /.panel -->
+
      </div>
     <!-- /.col-lg-6 -->
     <?php 
@@ -90,13 +83,13 @@
          array('class' => 'desabilitado'));
         
 
-   ?>
+    ?>
+
  </div>
 
-
-<div class="panel-body">    
+ <div class="panel-body">    
     <!-- Modal -->
-    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="confirmDebt" class="modal fade" style="display: none;">
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="confirmEvent" class="modal fade" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -104,14 +97,12 @@
                     <h4 id="myModalLabel" class="modal-title">Atenção</h4>
                 </div>
                 <div class="modal-body">
-                    Excluir essa cobrança resultará na exclusão de todos os
-                    eventos também. Tem certeza disso?
+                    Tem certeza que deseja excluir esse evento?
                 </div>
                 <div class="modal-footer">
                     <button data-dismiss="modal" class="btn btn-info" type="button">Cancelar</button>
                      <a class="btn btn-danger"  
-                         href="<?php echo '../debts/delete/'.
-                         $fechada['Debt']['id']?>"> Excluir
+                         href="<?php echo '../events/delete/'.$evento['Event']['id']?>"> Excluir
                       </a> 
                 </div>
             </div>
@@ -121,3 +112,4 @@
     </div>
     <!-- /.modal -->
 </div>
+

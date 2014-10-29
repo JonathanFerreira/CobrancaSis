@@ -152,6 +152,13 @@
                                  <li>
                                     <a>Listar <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
+                                       <li>
+                                             <?php
+                                                echo $this->Html->link(__('Hoje'), array(
+                                                      'controller' => 'debts', 'action' =>
+                                                       'list_today'));
+                                               ?>
+                                        </li>
                                         <li>
                                              <?php
                                                 echo $this->Html->link(__('Abertas'), array(
@@ -180,36 +187,8 @@
                                 </li>
                               
                             </ul>
-                        </li>
-                        <?php else: ?>   
-                           <li>
-                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cobranças<span class="fa arrow"></span></a>
-                             <ul class="nav nav-second-level">
-                                <li>
-                                 <li>
-                                    <a>Listar <span class="fa arrow"></span></a>
-                                    <ul class="nav nav-third-level">
-                                        <li>
-                                             <?php
-                                                echo $this->Html->link(__('Abertas'), array(
-                                                      'controller' => 'debts', 'action' =>
-                                                       'list_open'));
-                                               ?>
-                                        </li>
-                                       
-                                        
-                                     </ul>
-                                     <!-- /.nav-third-level -->
-                                 </li>
-                                </li>
-                              
-                            </ul>
-                        </li>               
-                     
-                           
-
-                         <?php endif; ?>
-                         <li>
+                        </li>                          
+                        <li>
                              <a href="#"><i class="fa fa-users fa-fw"></i> Clientes<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
                                 <li>
@@ -241,7 +220,68 @@
                                 </li>
                                 
                             </ul>
-                        </li>     
+                        </li>  
+                        <?php else: ?>   
+                           <li>
+                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Cobranças<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level">
+                                <li>
+                                 <li>
+                                    <a>Listar <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                             <?php
+                                                echo $this->Html->link(__('Hoje'), array(
+                                                      'controller' => 'debts', 'action' =>
+                                                       'list_today'));
+                                               ?>
+                                        </li> 
+                                     </ul>
+                                     <!-- /.nav-third-level -->
+                                 </li>
+                                </li>
+                              
+                            </ul>
+                        </li>  
+                        <li>
+                             <a href="#"><i class="fa fa-users fa-fw"></i> Clientes<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level">
+                                <li>
+                                     <?php
+                                        echo $this->Html->link(__('Cadastrar'), array(
+                                       'controller' => 'clients', 'action' => 'add'));
+                                       ?>
+                                </li>
+                                <li>
+                                     <?php
+                                        echo $this->Html->link(__('Buscar'), 
+                                        array('controller' => 'clients', 
+                                          'action' => 'search'));
+                                       ?>
+                                </li>   
+                                <li>
+                                     <?php
+                                        echo $this->Html->link(__('Listar Inadimplentes'), array(
+                                       'controller' => 'clients', 'action' => 'list_inadimplentes'));
+                                      ?>
+                                </li>
+                                
+                            </ul>
+                        </li>  
+                         <?php endif; ?>
+                         <li>
+                             <a href="#"><i class="fa fa-exclamation fa-fw"></i> Eventos<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level">
+                                <li>
+                                     <?php
+                                        echo $this->Html->link(__('Vencidos'), array(
+                                       'controller' => 'events', 'action' => 
+                                       'vencidos'));
+                                       ?>
+                                </li>          
+                            </ul>
+                        </li>
+                           
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

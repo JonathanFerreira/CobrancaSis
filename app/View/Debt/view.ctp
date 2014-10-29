@@ -8,7 +8,7 @@
 	    <div class="panel-body">
           
            <p>
-             Telfone: <?php echo $cliente['Client']['tell'];?>
+             Telefone: <?php echo $cliente['Client']['tell'];?>
           </p>
 	      
           <p>
@@ -31,7 +31,8 @@
 	        </p>
 
 	         <p>
-	           Valor:   <?php echo $cobranca['Debt']['valor'] ?>
+	           Valor:   R$ <?php echo number_format(($cobranca['Debt']['valor']
+                                                     ), 2, ',', '.'); ?>
 	        </p>  
 
           <p> 
@@ -87,12 +88,11 @@
               <div class="table-responsive">
                   <table class="table">
                         <thead>
-                            <tr>
-                                <th>Id</th>
+                            <tr> 
+                                <th>Informações</th>                          
                                 <th>Data Evento</th>
                                 <th>Contato</th>
-                                <th>Motivo</th>                               
-                                <th>Observação</th>
+                                <th>Motivo</th>
                                 <th>Opcões</th>
                             </tr>
                         </thead>
@@ -108,33 +108,28 @@
                                 <td>
                                     <?php
                                        echo $this->Html->link(
-                                            $evento['Event']['id'], array(
+                                            'Detalhes', array(
                                               'controller'=>'events','action' => 'view', 
                                               $evento['Event']['id']));
                                      ?>
                                </td>
                                 <td> 
                                     <?php
-                                       echo $evento['Event']['dt_evento'];
+                                       echo $data = implode('/',array_reverse(
+                                        explode( '-',$evento['Event']
+                                                     ['dt_evento'])));
                                      ?>
                                 </td>
                                 <td>
+                                  <?php  
+                                       echo $evento['Event']['contato']; 
+                                    ?>                                      
+                                </td>
+                                <td>                                   
                                     <?php  
                                     echo $evento['Event']['motivo']; 
                                      ?>
-                                </td>
-                                <td> 
-                                    <?php  
-                                       echo $evento['Event']['contato']; 
-                                    ?>  
-
-                                </td>
-                                 <td> 
-                                    <?php  
-                                       echo $evento['Event']['observacao']; 
-                                    ?>  
-
-                                </td>                             
+                                </td>                                          
                                 <td> 
                                 	   <a class="btn btn-warning btn-circle"  
                                           href="<?php echo '../../events/edit/'.$evento['Event']['id']?>">
@@ -249,6 +244,5 @@
 
 
 
-<?php debug($cliente);?>
 
 

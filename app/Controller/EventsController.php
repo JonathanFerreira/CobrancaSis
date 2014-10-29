@@ -2,8 +2,9 @@
 class EventsController extends AppController {
     public $helpers = array ('Html','Form');
     public $name = 'Event';
-    public $components = array('Session');
+    public $components = array('Session','Paginator');
     public $uses = array('Event','Debt');
+
    
     
     function index(){
@@ -111,6 +112,58 @@ class EventsController extends AppController {
 
       }
     }
+
+    public function vencidos() {  
+
+       $teste = $this->Event->find('all', array(
+           'joins' => array(
+            array(
+                'table' => 'debts',
+                'alias' => 'DebtJoin',
+                'type' => 'INNER',
+                'conditions' => array(
+                    'DebtJoin.id = Event.debt_id',
+                    'DebtJoin.fechado >= 1',
+                    'DebtJoin.fechado <= 2'
+                    
+                )
+            )
+         ),
+          
+          'fields' => array('DebtJoin.*', 'Event.*'),
+          'limit' => 10         
+          
+        ));      
+      
+      $options = array(             
+             'joins' => array(
+            array(
+                'table' => 'debts',
+                'alias' => 'DebtJoin',
+                'type' => 'INNER',
+                'conditions' => array(
+                    'DebtJoin.id = Event.debt_id',
+                    'DebtJoin.fechado >= 1',
+                    'DebtJoin.fechado <= 2'
+                    
+                )
+            )
+         ),
+          
+          'fields' => array('DebtJoin.*', 'Event.*'),
+          'limit' => 10 
+        );
+
+      $this->paginate = $options;
+   
+          // Roda a consulta, já trazendo os resultados paginados
+          $vencidos = $this->paginate('Event');
+   
+          // Envia os dados pra view
+         $this->set('vencidos',$vencidos);  
+          $this->set('teste',$teste);  
+    }
+
 
 
 }

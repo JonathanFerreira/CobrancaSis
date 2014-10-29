@@ -57,10 +57,8 @@
 
                                 </td>
                                  <td> 
-                                    <?php  
-                                       echo $cobranca['Debt']['valor']; 
-                                    ?>  
-
+                                  R$ <?php echo number_format(($cobranca
+                                       ['Debt']['valor']), 2, ',', '.'); ?>
                                 </td>
                                 <td> 
                                       <a class="btn btn-primary btn-circle"  
@@ -94,6 +92,17 @@
         <!-- /.panel -->
      </div>
     <!-- /.col-lg-6 -->
+    <?php 
+         
+         echo $this->Paginator->next(' «  Mais antigos  ', null, null, array('class' => 'desabilitado'));
+
+         echo $this->Paginator->numbers();
+
+         echo $this->Paginator->prev('  Mais novos  »', null, null,
+         array('class' => 'desabilitado'));
+        
+
+   ?>
  </div>
 
 <div class="panel-body">    

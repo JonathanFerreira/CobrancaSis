@@ -57,7 +57,7 @@ $(function() {
     echo $this->Form->input('observacao',array(
         'class' => 'form-control form-group',
         'placeholder'=>'Observação',
-        'type'=>'text'
+        'type'=>'textarea'
 
          ));    
     ?>

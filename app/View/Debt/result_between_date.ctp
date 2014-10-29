@@ -65,9 +65,17 @@
 
                                 </td>
                                 <td>
-                                    <?php 
-                                       echo($resultado['Debt']['fechado']==0)? "Aberta":"Encerrada"
-                                    ?>
+                                   <?php if($resultado['Debt']['fechado']==1){
+                                     echo "Aberta" ;
+                                         } else{
+                                          if($resultado['Debt']['fechado']==2){
+                                              echo "Cobrada";
+                                            }else{
+                                              echo "Encerrada";
+                                            }
+                                         }
+                                    
+                                  ?>
                                 </td>
                                 <td> 
                                       <a class="btn btn-primary btn-circle"  
