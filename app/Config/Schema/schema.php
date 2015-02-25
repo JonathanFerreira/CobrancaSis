@@ -26,6 +26,7 @@ class AppSchema extends CakeSchema {
 	public $debts = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'key' => 'primary'),
 		'client_id' => array('type' => 'integer', 'null' => false, 'default' => null),
+		'typedebt_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'dt_compra' => array('type' => 'date', 'null' => true, 'default' => null),
 		'dt_vencimento' => array('type' => 'date', 'null' => true, 'default' => null),
 		'dt_cobranca' => array('type' => 'date', 'null' => true, 'default' => null),
@@ -73,6 +74,18 @@ class AppSchema extends CakeSchema {
 			'PRIMARY' => array('column' => 'id', 'unique' => 1)
 		),
 		'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB')
+	);
+
+
+	public $typedebts = array(
+		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 10, 'key' => 'primary'),
+		'name' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
+		'indexes' => array(
+			'PRIMARY' => array('column' => 'id', 'unique' => 1)
+			),
+		'tableParameters' => array('charset' => 'latin1', 'collate' => 'latin1_swedish_ci', 'engine' => 'InnoDB')
 	);
 
 }

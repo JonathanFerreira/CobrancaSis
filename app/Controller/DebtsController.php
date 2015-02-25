@@ -3,7 +3,7 @@ class DebtsController extends AppController {
     public $helpers = array ('Html','Form');
     public $name = 'Debt';
     public $components = array('Session');
-    public $uses = array('Debt','User','Event','Client');
+    public $uses = array('Debt','User','Event','Client','Typedebt');
    
     
     function index(){
@@ -15,6 +15,8 @@ class DebtsController extends AppController {
 
 
     public function add($id){
+
+      $this->set('tiposcobrancas', array('[Selecione]') + $this->Typedebt->find('list'));
       if($this->request->is('post')){
         $this->request->data['Debt']['name'] = $this->Auth->user('name');
         $this->request->data['Debt']['client_id'] = $id;
@@ -172,7 +174,7 @@ class DebtsController extends AppController {
             'Debt.dt_cobranca <= ' =>  date('Y-m-d') 
 
          ),       
-        'limit' => 10
+        'limit' => 1
         );
          
          $this->paginate = $options;

@@ -4,6 +4,14 @@
         'class' => 'btn btn-primary'
     );
 
+    $input_course = array(
+     'label' => 'tipo_cobranca: *', 
+      'id' => 'course_id',
+      'class' => 'form-control',
+      'div' => array(
+        'class' => 'input_course',
+    ));
+
 ?>
 
 
@@ -11,8 +19,7 @@
 
 $(function() {
 
-    $("#calendario").datepicker({
-        minDate: '0',
+    $("#calendario").datepicker({       
         dateFormat: 'dd/mm/yy',
         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
         dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
@@ -27,8 +34,7 @@ $(function() {
 
 $(function() {
 
-    $("#calendario1").datepicker({
-        minDate: '0',
+    $("#calendario1").datepicker({       
         dateFormat: 'dd/mm/yy',
         dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
         dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
@@ -109,10 +115,19 @@ $(function() {
         'placeholder'=>'Observação'
          ));
 
+     echo $this->Form->input('typedebt_id',array(
+        'class' => 'form-control form-group',
+        'type' => 'textarea',
+        'placeholder'=>'Observação'
+         ));
+
     
     ?>
      
     <?php echo $this->Form->end($salvar);?>
 
 </div>
+
+
+<?php  debug($tiposcobrancas); ?>
 

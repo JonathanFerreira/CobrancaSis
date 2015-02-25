@@ -12,7 +12,7 @@ class Debt extends AppModel {
      'className' => 'Events',
      'foreignKey' => 'debt_id',
      'dependent'=> true,
-    ));
+    ));    
 
     
     public $belongsTo = array('Client');

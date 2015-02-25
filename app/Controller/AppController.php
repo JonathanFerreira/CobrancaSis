@@ -35,15 +35,15 @@ class AppController extends Controller {
 
     public $components = array(
         'Session',
-        'Auth' => array(
+        'Auth' => array(          
             'loginRedirect' => array(
                 'controller' => 'users', 
                 'action' => 'index'),
 
             'logoutRedirect' => array(
                 'controller' => 'users', 
-                'action' => 'login'),
-            )
+                'action' => 'login'),            
+             )
         );
 
     var $permissoesFuncionario = array(
@@ -57,12 +57,14 @@ class AppController extends Controller {
         'users' => array('add_manager' => true, 'add_employee' => true,'edit' => true,'delete' => true,'login' => true,'logout' => true, 'index' => true,'list_manager' => true, 'list_employee' => true,'view'=>true,'statistic' => true),
         'debts' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'list_open' => true,'list_close' => true,'pay' => true,'list_today' => true,'search_debt_only_date' => true,'result_only_date' => true,'search_debt_between_date' => true,'result_between_date' => true,'list_collect'=>true,'find_debt_per_event'=>true),
         'clients' => array('index' => true,'add' => true,'edit' => true,'delete' => true,'view' => true,'list_clients'=>true,'search'=>true,'result_search'=>true,'list_inadimplentes' => true),
-        'events' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'vencidos'=>true)
+        'events' => array('index' => true,'add' => true,'view'=>true,'delete'=>true,'edit'=>true,'vencidos'=>true),
+        'typedebts' => array('index' => true,'add' => true)
         );
     
     
     public function beforeFilter() {
-        parent::beforeFilter();
+        parent::beforeFilter();    
+
         $estaNaLogin = ($this->request->params['controller'] == 'users' AND $this->request->params['action'] == 'login');
         if($estaNaLogin) return;
 
